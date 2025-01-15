@@ -1,7 +1,6 @@
 ---
 title: inset-block-end
 slug: Web/CSS/inset-block-end
-translation_of: Web/CSS/inset-block-end
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -70,9 +69,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.inset-block-end")}}
+{{Compat}}
 
 ## Mira también
 

@@ -1,13 +1,6 @@
 ---
 title: Navigator.doNotTrack
 slug: Web/API/Navigator/doNotTrack
-tags:
-  - API
-  - DOM
-  - Experimental
-  - Propiedad
-  - Referencia
-translation_of: Web/API/Navigator/doNotTrack
 ---
 
 {{ApiRef("HTML DOM")}}{{SeeCompatTable}}
@@ -35,8 +28,8 @@ console.log(navigator.doNotTrack);
 
 ## Compatibilidad con navegadores
 
-{{Compat("api.Navigator.doNotTrack")}}
+{{Compat}}
 
 ## Vea también
 
-- [Guía sobre el campo Do Not Track](/es/docs/Web/Security/Do_not_track_field_guide)
+- [Guía sobre el campo Do Not Track](/es/docs/Web/HTTP/Headers/DNT)

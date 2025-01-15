@@ -1,7 +1,6 @@
 ---
 title: Date.prototype.valueOf()
 slug: Web/JavaScript/Reference/Global_Objects/Date/valueOf
-translation_of: Web/JavaScript/Reference/Global_Objects/Date/valueOf
 ---
 
 {{JSRef}}
@@ -13,7 +12,7 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Date/valueOf
 ## Syntax
 
 ```js
-    dateObj.valueOf()
+dateObj.valueOf();
 ```
 
 ### Return value
@@ -34,14 +33,14 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Date/valueOf
 
 ```js
 var x = new Date(56, 6, 17);
-var myVar = x.valueOf();      // myVar에 -424713600000를 할당합니다.
+var myVar = x.valueOf(); // myVar에 -424713600000를 할당합니다.
 ```
 
-## Specifications
+## 명세서
 
 {{Specifications}}
 
-## Browser compatibility
+## 브라우저 호환성
 
 {{Compat}}
 

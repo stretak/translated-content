@@ -1,13 +1,6 @@
 ---
 title: Math.LN2
 slug: Web/JavaScript/Reference/Global_Objects/Math/LN2
-tags:
-  - JavaScript
-  - Math
-  - Property
-  - Referencia
-translation_of: Web/JavaScript/Reference/Global_Objects/Math/LN2
-original_slug: Web/JavaScript/Referencia/Objetos_globales/Math/LN2
 ---
 
 {{JSRef}}
@@ -42,7 +35,7 @@ getNatLog2(); // 0.6931471805599453
 
 ## Compatibilidad con navegadores
 
-{{Compat("javascript.builtins.Math.LN2")}}
+{{Compat}}
 
 ## Ver también
 

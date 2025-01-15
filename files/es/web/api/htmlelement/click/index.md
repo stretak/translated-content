@@ -1,11 +1,6 @@
 ---
 title: HTMLElement.click()
 slug: Web/API/HTMLElement/click
-tags:
-  - HTMLElement
-  - Referencia
-  - metodo
-translation_of: Web/API/HTMLElement/click
 ---
 
 {{ APIRef("HTML DOM") }}
@@ -24,10 +19,6 @@ elemento.click()
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("api.HTMLElement.click")}}
-
-### Traducción en Español:
-
-[¿Necesitas ayuda?](/es/docs/MDN/Community) • [Guía editorial](/es/docs/MDN/Contribute/Editor) • [Guía de estilo](/es/docs/MDN/Contribute/Content/Style_guide)Borrador autoguardado: 26/5/2018 21:51:54
+{{Compat}}

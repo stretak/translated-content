@@ -1,13 +1,6 @@
 ---
 title: border-top
 slug: Web/CSS/border-top
-tags:
-  - CSS
-  - CSS Borders
-  - CSS Property
-  - Reference
-  - 테두리
-translation_of: Web/CSS/border-top
 ---
 
 {{CSSRef}}
@@ -56,9 +49,7 @@ border-top: medium dashed green;
 ## 예제
 
 ```html
-<div>
-  위쪽 테두리를 가진 요소입니다.
-</div>
+<div>위쪽 테두리를 가진 요소입니다.</div>
 ```
 
 ```css

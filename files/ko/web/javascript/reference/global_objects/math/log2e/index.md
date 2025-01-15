@@ -1,12 +1,6 @@
 ---
 title: Math.LOG2E
 slug: Web/JavaScript/Reference/Global_Objects/Math/LOG2E
-tags:
-  - JavaScript
-  - Math
-  - Property
-  - Reference
-translation_of: Web/JavaScript/Reference/Global_Objects/Math/LOG2E
 ---
 
 {{JSRef}}
@@ -21,7 +15,7 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Math/LOG2E
 
 `LOG2E`는 `Math`의 정적 속성이므로, 사용자가 생성한 `Math` 객체의 속성으로 접근할 수 없고 항상 `Math.LOG2E`를 사용해야 합니다. (`Math`는 생성자가 아닙니다)
 
-## 설명
+## 예제
 
 ### `Math.LOG2E` 사용하기
 

@@ -1,7 +1,6 @@
 ---
 title: border-inline
 slug: Web/CSS/border-inline
-translation_of: Web/CSS/border-inline
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -68,9 +67,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-inline")}}
+{{Compat}}
 
 ## Mira también
 

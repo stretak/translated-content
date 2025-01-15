@@ -99,13 +99,11 @@ size: A4 portrait;
 
 ## 仕様書
 
-| 仕様書                                                                           | 状態                                     | 備考     |
-| -------------------------------------------------------------------------------- | ---------------------------------------- | -------- |
-| {{SpecName('CSS3 Paged Media', '#page-size-prop', 'size')}} | {{Spec2('CSS3 Paged Media')}} | 初回定義 |
+{{Specifications}}
 
 ## ブラウザーの互換性
 
-{{Compat("css.at-rules.page.size")}}
+{{Compat}}
 
 ## 関連情報
 

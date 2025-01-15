@@ -1,9 +1,8 @@
 ---
 title: Symbol
 slug: conflicting/Web/JavaScript/Reference/Global_Objects/Symbol
-translation_of: Glossary/Symbol
-original_slug: Glossary/Symbol
 ---
+
 Esse termo do glossário descreve tanto o tipo de dados chamado "**symbol**", quando a função/classe "{{jsxref("Symbol")}}`()`", que entre outras coisas, cria instâncias do tipo de dados **symbol**.
 
 O tipo de dados "**symbol**" é qualificado como um primitivo, onde valores desse tipo podem ser usados para fazer propriedades de objetos anônimos. Ele pode ser usado como chave de uma propriedade de objeto quando este tem a intenção de ser privada, para uso interno da classe ou do tipo do objeto em questão. Como exemplo, chaves do tipo **symbol** existem em vários objetos internos do JavaScript. Da mesma forma, pode-se construir classes que tenham membros privados usando essa técnica. O tipo de dados **symbol** é de propósito altamente especializado, o que o torna pouco versátil; uma instância de **Symbol** pode ser atribuída à um L-value, e pode ter sua identidade examinada, nada mais; nenhuma outra operação poderá ser aplicada, o que contrasta, por exemplo, com uma instância de Number para um inteiro cujo valor é 42, que por sua vez tem diversas operações para comparar, combinar com outros tipos de dados, etc.
@@ -56,6 +55,6 @@ Object.getOwnPropertySymbols(obj) // [ Symbol(), Symbol() ]
 
 ### General knowledge
 
-- {{Interwiki("wikipedia", "Symbol (programming)")}} on Wikipedia
+- [Symbol (programming)](<https://en.wikipedia.org/wiki/Symbol_(programming)>) on Wikipedia
 - [JavaScript data types and data structures](/pt-BR/docs/Web/JavaScript/Data_structures)
 - [Symbols in ECMAScript 6](http://2ality.com/2014/12/es6-symbols.html)

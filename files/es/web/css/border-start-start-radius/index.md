@@ -1,7 +1,6 @@
 ---
 title: border-start-start-radius
 slug: Web/CSS/border-start-start-radius
-translation_of: Web/CSS/border-start-start-radius
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -70,9 +69,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-start-start-radius")}}
+{{Compat}}
 
 ## Mira también
 

@@ -1,10 +1,11 @@
 ---
 title: Accesibilidad
 slug: Web/Accessibility
-translation_of: Web/Accessibility
 l10n:
   sourceCommit: acebfb2b738c2b3d7caf73607000f1aa4b4393d1
 ---
+
+{{AccessibilitySidebar}}
 
 La **accesibilidad web** (a menudo abreviada como **A11y** — como "a", luego 11 caracteres, y luego "y") se refiere a la posibilidad de acceso a los diferentes sitios web y a todo su contenido por todas las personas, independientemente de sus limitaciones físicas (discapacidad) o las derivadas del contexto de uso (tecnológicas o ambientales).
 

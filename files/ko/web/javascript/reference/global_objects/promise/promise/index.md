@@ -1,12 +1,6 @@
 ---
 title: Promise() 생성자
 slug: Web/JavaScript/Reference/Global_Objects/Promise/Promise
-tags:
-  - Constructor
-  - JavaScript
-  - Promise
-  - Reference
-translation_of: Web/JavaScript/Reference/Global_Objects/Promise/Promise
 ---
 
 {{JSRef}}
@@ -18,7 +12,7 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Promise/Promise
 ## 구문
 
 ```js
-new Promise(executor)
+new Promise(executor);
 ```
 
 ### 매개변수
@@ -45,11 +39,11 @@ const myFirstPromise = new Promise((resolve, reject) => {
 ```js
 function myAsyncFunction(url) {
   return new Promise((resolve, reject) => {
-    const xhr = new XMLHttpRequest()
-    xhr.open("GET", url)
-    xhr.onload = () => resolve(xhr.responseText)
-    xhr.onerror = () => reject(xhr.statusText)
-    xhr.send()
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", url);
+    xhr.onload = () => resolve(xhr.responseText);
+    xhr.onerror = () => reject(xhr.statusText);
+    xhr.send();
   });
 }
 ```

@@ -1,17 +1,6 @@
 ---
 title: Class static initialization blocks
 slug: Web/JavaScript/Reference/Classes/Static_initialization_blocks
-tags:
-  - Classes
-  - ECMAScript 2022
-  - JavaScript
-  - Language feature
-  - Static
-  - Reference
-  - Initialization
-translation_of: Web/JavaScript/Reference/Classes/Class_static_initialization_blocks
-original_slug: Web/JavaScript/Reference/Classes/Class_static_initialization_blocks
-browser-compat: javascript.classes.static_initialization_blocks
 ---
 
 {{jsSidebar("Classes")}}
@@ -41,10 +30,10 @@ super 클래스의 정적 초기화는 하위 클래스보다 먼저 수행됩�
 `static {}` 초기화 블록에서 선언된 `var`, `function`, `const` 또는 `let`은 해당 블록에 대해 로컬이므로 블록의 모든 `var` 선언은 호이스트 되지 않습니다.
 
 ```js
-var y = '외부 y';
+var y = "외부 y";
 
 class A {
-  static field = '내부 y';
+  static field = "내부 y";
   static {
     var y = this.field;
   }
@@ -72,13 +61,13 @@ console.log(y);
 
 ```js
 class MyClass {
-  static field1 = console.log('필드1 호출됨');
+  static field1 = console.log("필드1 호출됨");
   static {
-    console.log('1번 정적 클래스 블록 호출됨');
+    console.log("1번 정적 클래스 블록 호출됨");
   }
-  static field2 = console.log('필드2 호출됨');
+  static field2 = console.log("필드2 호출됨");
   static {
-    console.log('2번 정적 클래스 블록 호출됨');
+    console.log("2번 정적 클래스 블록 호출됨");
   }
 }
 
@@ -99,7 +88,7 @@ super 클래스의 정적 초기화는 하위 클래스보다 먼저 수행됩�
 
 ```js
 class A {
-  static field = '정적 필드';
+  static field = "정적 필드";
   static {
     console.log(this.field);
   }
@@ -111,7 +100,7 @@ class A {
 
 ```js
 class A {
-  static fieldA = 'A.fieldA';
+  static fieldA = "A.fieldA";
 }
 class B extends A {
   static {
@@ -138,15 +127,15 @@ class D {
   }
 }
 
-getDPrivateField(new D('private'));
+getDPrivateField(new D("private"));
 // > private
 ```
 
 ### 제2의 해결책
 
-ES13 이전에는 정적 초기화를 수행하기 위해 다른 속성 다음에 호출되는 정적 메서드를 사용하거나 클래스 외부에 있는 초기화  메서드를 사용하는 복잡한 초기화를 진행했습니다.
+ES13 이전에는 정적 초기화를 수행하기 위해 다른 속성 다음에 호출되는 정적 메서드를 사용하거나 클래스 외부에 있는 초기화 메서드를 사용하는 복잡한 초기화를 진행했습니다.
 
-두 경우 모두 접근 방식이 우아하지않고 클래스의 프라이빗  메서드에 대한 접근 권한을 부여하는것이 아니었습니다.
+두 경우 모두 접근 방식이 우아하지않고 클래스의 프라이빗 메서드에 대한 접근 권한을 부여하는것이 아니었습니다.
 
 ## 명세서
 

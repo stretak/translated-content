@@ -1,14 +1,6 @@
 ---
 title: object-position
 slug: Web/CSS/object-position
-tags:
-  - CSS
-  - CSS Property
-  - Layout
-  - Reference
-  - Replaced Elements
-  - 대체 요소
-translation_of: Web/CSS/object-position
 ---
 
 {{CSSRef}}
@@ -37,7 +29,8 @@ object-position: unset;
 - {{cssxref("&lt;position&gt;")}}
   - : 객체의 2D 위치를 지정하는 한 개에서 네 개의 값. 상대와 절대 오프셋을 사용할 수 있습니다.
 
-> **참고:** 콘텐츠가 대체 요소의 박스 바깥으로 나가도록 지정할 수도 있습니다.
+> [!NOTE]
+> 콘텐츠가 대체 요소의 박스 바깥으로 나가도록 지정할 수도 있습니다.
 
 ## 형식 정의
 
@@ -56,8 +49,8 @@ object-position: unset;
 두 개의 {{htmlelement("img")}} 요소가 MDN 로고를 가리키는 코드입니다.
 
 ```html
-<img id="object-position-1" src="https://mdn.mozillademos.org/files/12668/MDN.svg" alt="MDN Logo"/>
-<img id="object-position-2" src="https://mdn.mozillademos.org/files/12668/MDN.svg" alt="MDN Logo"/>
+<img id="object-position-1" src="mdn.svg" alt="MDN Logo" />
+<img id="object-position-2" src="mdn.svg" alt="MDN Logo" />
 ```
 
 #### CSS

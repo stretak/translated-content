@@ -1,13 +1,6 @@
 ---
 title: Node.lastChild
 slug: Web/API/Node/lastChild
-tags:
-  - API
-  - DOM
-  - NecesitaCompatibilidadNavegador
-  - Propiedad
-  - Referencia
-translation_of: Web/API/Node/lastChild
 ---
 
 {{APIRef("DOM")}}
@@ -31,6 +24,6 @@ var corner_td = tr.lastChild;
 
 {{Specifications}}
 
-## Compatibilidad en navegador
+## Compatibilidad con navegadores
 
-{{Compat("api.Node.lastChild")}}
+{{Compat}}

@@ -1,8 +1,6 @@
 ---
 title: API de geolocalización
 slug: Web/API/Geolocation_API
-translation_of: Web/API/Geolocation_API
-original_slug: WebAPI/Using_geolocation
 ---
 
 {{securecontext_header}}{{DefaultAPISidebar("Geolocation API")}}
@@ -54,11 +52,11 @@ Consulte [Uso de la API de geolocalización](/es/docs/Web/API/Geolocation_API/Us
 
 ## Especificaciones
 
-{{Specifications("api.Geolocation")}}
+{{Specifications}}
 
 ## Compatibilidad con navegadores
 
-{{Compat("api.Geolocation")}}
+{{Compat}}
 
 ### Disponibilidad
 

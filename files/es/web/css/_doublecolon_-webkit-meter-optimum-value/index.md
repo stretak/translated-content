@@ -1,12 +1,6 @@
 ---
-title: '::-webkit-meter-optimum-value'
+title: "::-webkit-meter-optimum-value"
 slug: Web/CSS/::-webkit-meter-optimum-value
-tags:
-  - CSS
-  - No estándar(2)
-  - Pseudo-elemento
-  - Referencia
-translation_of: Web/CSS/::-webkit-meter-optimum-value
 ---
 
 {{CSSRef}}{{Non-standard_header}}
@@ -17,10 +11,6 @@ El pseudo-elemento CSS `::-webkit-meter-optimum-value` da estilo al elemento met
 
 El color por defecto es verde.
 
-## Especificaciones
-
-No es parte de ninguna especificación. Es un pseudo-elemento propietario y específico de WebKit/Blink.
-
 ## Ejemplos
 
 ```html
@@ -30,9 +20,9 @@ No es parte de ninguna especificación. Es un pseudo-elemento propietario y espe
 ```css
 meter::-webkit-meter-bar {
   /* Necesario para eliminar la propiedad de fondo por defecto */
-  background : none;
-  background-color : whiteSmoke;
-  box-shadow : 0 5px 5px -5px #333 inset;
+  background: none;
+  background-color: whiteSmoke;
+  box-shadow: 0 5px 5px -5px #333 inset;
 }
 
 meter::-webkit-meter-optimum-value {
@@ -42,11 +32,16 @@ meter::-webkit-meter-optimum-value {
 
 {{ EmbedLiveSample('Ejemplos', '100%', 50) }}
 
-> **Nota:** Sólo funciona en navegadores basado en Webkit/Blink.
+> [!NOTE]
+> Sólo funciona en navegadores basado en Webkit/Blink.
 
-## Compatibilidad con los distintos navegadores
+## Especificaciones
 
-{{Compat("css.selectors.-webkit-meter-optimum-value")}}
+No es parte de ninguna especificación. Es un pseudo-elemento propietario y específico de WebKit/Blink.
+
+## Compatibilidad con navegadores
+
+{{Compat}}
 
 ## Ver además
 

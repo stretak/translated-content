@@ -1,14 +1,6 @@
 ---
 title: CanvasRenderingContext2D.getImageData()
 slug: Web/API/CanvasRenderingContext2D/getImageData
-tags:
-  - CanvasRenderingContext2D
-  - Context 2D
-  - Español
-  - Method
-  - Reference
-  - getImageData
-translation_of: Web/API/CanvasRenderingContext2D/getImageData
 ---
 
 {{APIRef}}
@@ -58,8 +50,8 @@ Esto es sólo un simple fragmento de código que utiliza el método getImageData
 #### JavaScript
 
 ```js
-var canvas = document.getElementById('canvas');
-var ctx = canvas.getContext('2d');
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
 ctx.rect(10, 10, 100, 100);
 ctx.fill();
 
@@ -73,7 +65,7 @@ console.log(ctx.getImageData(50, 50, 100, 100));
 
 ## Compatibilidad con navegadores
 
-{{Compat("api.CanvasRenderingContext2D.getImageData")}}
+{{Compat}}
 
 ## Véase también
 

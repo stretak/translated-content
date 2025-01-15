@@ -1,11 +1,6 @@
 ---
 title: border-right
 slug: Web/CSS/border-right
-tags:
-  - Bordes CSS
-  - Propiedad CSS
-  - Referencia
-translation_of: Web/CSS/border-right
 ---
 
 {{CSSRef}}
@@ -56,9 +51,7 @@ Los tres valores de la propiedad rápida pueden ser especificados en cualquier o
 ## Ejemplo
 
 ```html
-<div>
-  Esta caja tiene un borde en el lado derecho.
-</div>
+<div>Esta caja tiene un borde en el lado derecho.</div>
 ```
 
 ```css
@@ -78,6 +71,6 @@ div {
 
 {{Specifications}}
 
-## Compatibilitidad del navegador
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-right")}}
+{{Compat}}

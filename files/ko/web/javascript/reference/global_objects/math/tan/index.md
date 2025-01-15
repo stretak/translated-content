@@ -1,13 +1,6 @@
 ---
 title: Math.tan()
 slug: Web/JavaScript/Reference/Global_Objects/Math/tan
-tags:
-  - JavaScript
-  - Math
-  - Method
-  - Reference
-translation_of: Web/JavaScript/Reference/Global_Objects/Math/tan
-browser-compat: javascript.builtins.Math.tan
 ---
 
 {{JSRef}}
@@ -19,7 +12,7 @@ browser-compat: javascript.builtins.Math.tan
 ## 문법
 
 ```js
-Math.tan(x)
+Math.tan(x);
 ```
 
 ### 매개변수
@@ -49,7 +42,7 @@ Math.tan(1); // 1.5574077246549023
 
 ```js
 function getTanDeg(deg) {
-  var rad = deg * Math.PI/180;
+  var rad = (deg * Math.PI) / 180;
   return Math.tan(rad);
 }
 ```

@@ -1,13 +1,6 @@
 ---
-title: ':first-child'
+title: ":first-child"
 slug: Web/CSS/:first-child
-tags:
-  - CSS
-  - Diseño
-  - Pseudo-clase
-  - Referencia
-  - Web
-translation_of: Web/CSS/:first-child
 ---
 
 {{CSSRef}}
@@ -22,7 +15,8 @@ p:first-child {
 }
 ```
 
-> **Nota:** Como se definió originalmente, el elemento seleccionado tenía que tener un padre. Comenzando con el Nivel 4 de Selectores, esto ya no es necesario.
+> [!NOTE]
+> Como se definió originalmente, el elemento seleccionado tenía que tener un padre. Comenzando con el Nivel 4 de Selectores, esto ya no es necesario.
 
 ## Sintaxis
 
@@ -68,7 +62,8 @@ p:first-child {
 <ul>
   <li>Objeto 1</li>
   <li>Objeto 2</li>
-  <li>Objeto 3
+  <li>
+    Objeto 3
     <ul>
       <li>Objeto 3.1</li>
       <li>Objeto 3.2</li>
@@ -101,7 +96,7 @@ ul li:first-child {
 
 ## Compatibilidad con navegadores
 
-{{Compat("css.selectors.first-child")}}
+{{Compat}}
 
 ## Ver también
 

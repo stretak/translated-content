@@ -1,16 +1,6 @@
 ---
 title: Animation.finish()
 slug: Web/API/Animation/finish
-tags:
-  - API
-  - Animacion
-  - Animaciones Web
-  - Experimental
-  - Finish
-  - Reference
-  - metodo
-  - waapi
-translation_of: Web/API/Animation/finish
 ---
 
 {{APIRef("Web Animations")}}
@@ -55,11 +45,9 @@ interfaceElement.addEventListener("mousedown", function() {
 El siguiente ejemplo finaliza todas las animaciones en un solo elemento, independientemente de su dirección de reproducción.
 
 ```js
-elem.getAnimations().forEach(
-  function(animation){
-    return animation.finish();
-  }
-);
+elem.getAnimations().forEach(function (animation) {
+  return animation.finish();
+});
 ```
 
 ## Especificaciones

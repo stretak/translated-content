@@ -1,11 +1,6 @@
 ---
 title: prefer_related_applications
 slug: Web/Manifest/prefer_related_applications
-tags:
-  - Manifest
-  - Web
-  - prefer_related_applications
-translation_of: Web/Manifest/prefer_related_applications
 ---
 
 {{QuickLinksWithSubpages('/ru/docs/Web/Manifest')}}
@@ -31,9 +26,9 @@ translation_of: Web/Manifest/prefer_related_applications
   </tbody>
 </table>
 
-_`prefer_related_applications`_ является значением типа `boolean`, которое указывает, что приложения, перечисленные в [`related_applications`](./related_applications), должны быть предпочтительнее веб-приложения. Если для `prefer_related_applications` установлено значение `true`, пользовательский агент может предложить установить одно из связанных приложений вместо этого веб-приложения.
+`prefer_related_applications` является значением типа `boolean`, которое указывает, что приложения, перечисленные в [`related_applications`](./related_applications), должны быть предпочтительнее веб-приложения. Если для `prefer_related_applications` установлено значение `true`, пользовательский агент может предложить установить одно из связанных приложений вместо этого веб-приложения.
 
-Если опущено, _`prefer_related_applications`_ по умолчанию `false`.
+Если опущено, `prefer_related_applications` по умолчанию `false`.
 
 ## Пример
 
@@ -41,12 +36,10 @@ _`prefer_related_applications`_ является значением типа `bo
 "prefer_related_applications": true
 ```
 
-## Specification
+## Спецификации
 
-| Specification                                                                                                                | Status                       | Comment             | Feedback                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ------------------- | -------------------------------------------------------------------------------- |
-| {{SpecName('Manifest', '#prefer_related_applications-member', 'prefer_related_applications')}} | {{Spec2('Manifest')}} | Initial definition. | [Web App Manifest Working Group drafts](https://github.com/w3c/manifest/issues/) |
+{{Specifications}}
 
-## Browser compatibility
+## Совместимость с браузерами
 
 {{Compat}}

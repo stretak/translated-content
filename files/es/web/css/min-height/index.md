@@ -1,11 +1,6 @@
 ---
 title: min-height
 slug: Web/CSS/min-height
-tags:
-  - CSS
-  - CSS:Referencias
-  - Todas_las_Categorías
-translation_of: Web/CSS/min-height
 ---
 
 {{CSSRef}}
@@ -37,17 +32,13 @@ form {min-height: 0;}
 
 {{ Cssxref("min-height") }} tiene prioridad sobre los valores {{ Cssxref("max-height") }} y {{ Cssxref("height") }}.
 
-### Esdpecificaciones
+### Especificaciones
 
-- [CSS 2.1](http://www.w3.org/TR/CSS2/visudet.html#min-max-heights)
+{{Specifications}}
 
-### Compatibilidades
+### Compatibilidad con navegadores
 
-| Navegador         | Versión mínima |
-| ----------------- | -------------- |
-| Internet Explorer | 6              |
-| Netscape          | 6              |
-| Opera             | 3.5            |
+{{Compat}}
 
 ### Ver también
 

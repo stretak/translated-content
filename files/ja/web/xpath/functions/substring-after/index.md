@@ -3,7 +3,7 @@ title: substring-after
 slug: Web/XPath/Functions/substring-after
 ---
 
-{{ XsltRef() }}
+{{XsltSidebar}}{{ XsltRef() }}
 
 `substring-after` 関数は、与えられた文字列内で、与えられた部分文字列よりも後にある残りの部分を返します。
 
@@ -15,13 +15,13 @@ substring-after(haystack ,needle )
 
 ### 引数
 
-- _`haystack`_
+- `haystack`
   - : 評価される文字列。この文字列の一部が返される。
 
 <!---->
 
-- _`needle`_
-  - : 検索する文字列。_`haystack`_ 内で最初に見つかった *`needle`* よりも後にあるすべての文字が返される。
+- `needle`
+  - : 検索する文字列。`haystack` 内で最初に見つかった `needle` よりも後にあるすべての文字が返される。
 
 ### 返値
 
@@ -38,7 +38,7 @@ substring-after(haystack ,needle )
 
 ### 定義元
 
-[XPath 1.0 4.2](http://www.w3.org/TR/xpath#function-substring-after)
+[XPath 1.0 4.2](https://www.w3.org/TR/xpath#function-substring-after)
 
 ### Gecko での対応
 

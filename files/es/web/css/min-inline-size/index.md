@@ -1,7 +1,6 @@
 ---
 title: min-inline-size
 slug: Web/CSS/min-inline-size
-translation_of: Web/CSS/min-inline-size
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -69,9 +68,9 @@ La propiedad `min-inline-size` toma los mismos valores de las propiedades {{cssx
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.min-inline-size")}}
+{{Compat}}
 
 ## Mira también
 

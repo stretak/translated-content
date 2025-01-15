@@ -1,7 +1,6 @@
 ---
 title: border-top-color
 slug: Web/CSS/border-top-color
-translation_of: Web/CSS/border-top-color
 ---
 
 {{CSSRef}}
@@ -46,9 +45,10 @@ La propiedad `border-top-color` es especificada con un valor unico.
 
 ```html
 <div class="mybox">
-  <p>Esta es una caja con un border alrededor.
-     Tenga en cuenta que un border de la caja es
-     <span class="redtext">Rojo</span>.</p>
+  <p>
+    Esta es una caja con un border alrededor. Tenga en cuenta que un border de
+    la caja es <span class="redtext">Rojo</span>.
+  </p>
 </div>
 ```
 
@@ -74,9 +74,9 @@ La propiedad `border-top-color` es especificada con un valor unico.
 
 {{Specifications}}
 
-## Compatibilidad entre navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-top-color")}}
+{{Compat}}
 
 ## Ver tambien
 

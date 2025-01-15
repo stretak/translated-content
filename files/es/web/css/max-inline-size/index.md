@@ -1,7 +1,6 @@
 ---
 title: max-inline-size
 slug: Web/CSS/max-inline-size
-translation_of: Web/CSS/max-inline-size
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -68,9 +67,9 @@ La propiedad `max-inline-size` toma los mismos valores como las propiedades {{cs
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.max-inline-size")}}
+{{Compat}}
 
 ## Mira también
 

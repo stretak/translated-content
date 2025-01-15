@@ -1,13 +1,6 @@
 ---
 title: class 식
 slug: Web/JavaScript/Reference/Operators/class
-tags:
-  - ECMAScript 2015
-  - Expression
-  - JavaScript
-  - Operator
-  - Reference
-translation_of: Web/JavaScript/Reference/Operators/class
 ---
 
 {{jsSidebar("Operators")}}
@@ -59,7 +52,7 @@ var Foo = class NamedFoo {
   whoIsThere() {
     return NamedFoo.name;
   }
-}
+};
 var bar = new Foo();
 bar.whoIsThere(); // "NamedFoo"
 NamedFoo.name; // ReferenceError: NamedFoo가 정의되지 않음

@@ -1,14 +1,9 @@
 ---
 title: when
 slug: Web/XSLT/Element/when
-tags:
-  - Todas_las_Categorías
-  - XSLT
-translation_of: Web/XSLT/Element/when
-original_slug: Web/XSLT/when
 ---
 
-{{XsltRef}}
+{{XsltSidebar}}{{XsltRef}}
 
 El elemento `<xsl:when>` siempre aparece dentro de un elemento `<xsl:choose>`, actuando como una sentencia case.
 

@@ -1,13 +1,6 @@
 ---
 title: Date.prototype.getFullYear()
 slug: Web/JavaScript/Reference/Global_Objects/Date/getFullYear
-tags:
-  - Date
-  - JavaScript
-  - Method
-  - Prototype
-  - Reference
-translation_of: Web/JavaScript/Reference/Global_Objects/Date/getFullYear
 ---
 
 {{JSRef}}
@@ -21,7 +14,7 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Date/getFullYear
 ## 구문
 
 ```js
-    dateObj.getFullYear()
+dateObj.getFullYear();
 ```
 
 ### 반환 값

@@ -3,7 +3,9 @@ title: ARPA
 slug: Glossary/ARPA
 ---
 
-**.arpa** (address and routing parameter area) é um  {{glossary("TLD","top-level domain")}} usado para fins de infraestrutura da Internet, especialmente pesquisa de DNS reverso (ou seja, localiza o {{glossary('domain name')}} para um determinado {{glossary("IP address")}}).
+{{GlossarySidebar}}
+
+**.arpa** (address and routing parameter area) é um {{glossary("TLD","top-level domain")}} usado para fins de infraestrutura da Internet, especialmente pesquisa de DNS reverso (ou seja, localiza o {{glossary('domain name')}} para um determinado {{glossary("IP address")}}).
 
 ## See also
 

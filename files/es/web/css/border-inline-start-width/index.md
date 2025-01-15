@@ -1,7 +1,6 @@
 ---
 title: border-inline-start-width
 slug: Web/CSS/border-inline-start-width
-translation_of: Web/CSS/border-inline-start-width
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -63,9 +62,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-inline-start-width")}}
+{{Compat}}
 
 ## Mira también
 

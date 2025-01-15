@@ -1,13 +1,6 @@
 ---
 title: Date.prototype.getDay()
 slug: Web/JavaScript/Reference/Global_Objects/Date/getDay
-tags:
-  - Date
-  - JavaScript
-  - Method
-  - Prototype
-  - Reference
-translation_of: Web/JavaScript/Reference/Global_Objects/Date/getDay
 ---
 
 {{JSRef}}
@@ -19,7 +12,7 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Date/getDay
 ## 구문
 
 ```js
-    dateObj.getDay()
+dateObj.getDay();
 ```
 
 ### 반환 값
@@ -33,7 +26,7 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Date/getDay
 1995년 12월 25일은 월요일입니다. 따라서 아래 코드의 두 번째 명령문은 `Xmas95`의 값에 기반하여 `weekday`에 1을 할당합니다.
 
 ```js
-var Xmas95 = new Date('December 25, 1995 23:15:30');
+var Xmas95 = new Date("December 25, 1995 23:15:30");
 var weekday = Xmas95.getDay();
 
 console.log(weekday); // 1

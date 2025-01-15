@@ -1,11 +1,6 @@
 ---
 title: break
 slug: Web/JavaScript/Reference/Statements/break
-tags:
-  - JavaScript
-  - Reference
-  - Statement
-translation_of: Web/JavaScript/Reference/Statements/break
 ---
 
 {{jsSidebar("Statements")}}
@@ -51,11 +46,11 @@ function testBreak(x) {
 ```js
 outer_block: {
   inner_block: {
-    console.log('1');
+    console.log("1");
     break outer_block; // inner_block과 outer_block 둘다 빠져나옴
-    console.log(':-('); // 건너뜀
+    console.log(":-("); // 건너뜀
   }
-  console.log('2'); // 건너뜀
+  console.log("2"); // 건너뜀
 }
 ```
 

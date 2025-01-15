@@ -1,12 +1,6 @@
 ---
-title: '-webkit-text-stroke'
+title: "-webkit-text-stroke"
 slug: Web/CSS/-webkit-text-stroke
-tags:
-  - CSS
-  - No estándar(2)
-  - Propiedad
-  - Referencia
-translation_of: Web/CSS/-webkit-text-stroke
 ---
 
 {{CSSRef}}{{Non-standard_header}}
@@ -64,9 +58,9 @@ La propiedad [CSS](/es/docs/Web/CSS) **`-webkit-text-stroke`** especifica la [an
 
 {{Specifications}}
 
-## Compatibilidad con los distintos navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.-webkit-text-stroke")}}
+{{Compat}}
 
 ## Ver además
 

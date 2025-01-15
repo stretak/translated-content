@@ -1,13 +1,9 @@
 ---
 title: message
 slug: Web/XSLT/Element/message
-tags:
-  - Todas_las_Categorías
-  - XSLT
-translation_of: Web/XSLT/Element/message
-original_slug: Web/XSLT/message
 ---
-{{XsltRef}}
+
+{{XsltSidebar}}{{XsltRef}}
 
 El elemento `<xsl:message>` muestra un mensaje (en la consola JavaScript en NS) y opcionalmente termina la ejecución de la hoja de estilos. Puede ser util para depuración.
 

@@ -1,13 +1,6 @@
 ---
-title: ':has'
+title: ":has"
 slug: Web/CSS/:has
-tags:
-  - CSS
-  - Experimental
-  - Pseudo clase
-  - Referencia
-  - Selectores CSS
-translation_of: Web/CSS/:has
 ---
 
 {{ CSSRef() }}{{SeeCompatTable}}
@@ -27,13 +20,14 @@ La [pseudo-class](/es/docs/Web/CSS/Pseudo-classes) CSS **`:has()`** representa u
 El siguiente selector selecciona únicamente los elementos {{HTMLElement("a")}} que contienen {{HTMLElement("img")}} hijo:
 
 ```css
-a:has(> img)
+a:has(> img) {
+}
 ```
 
 ## Especificaciones
 
 {{Specifications}}
 
-## Compatibilidad entre los distintos navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.selectors.has")}}
+{{Compat}}

@@ -1,11 +1,6 @@
 ---
 title: categories
 slug: Web/Manifest/categories
-tags:
-  - Manifest
-  - Web
-  - categories
-translation_of: Web/Manifest/categories
 ---
 
 {{QuickLinksWithSubpages("/ru/docs/Web/Manifest")}}
@@ -29,7 +24,7 @@ translation_of: Web/Manifest/categories
   </tbody>
 </table>
 
-_`categories`_ - это массив строк, определяющих имена категорий, к которым, предположительно, относится приложение. Нет стандартного списка возможных значений, но W3C поддерживает [список известных категорий](https://github.com/w3c/manifest/wiki/Categories).
+`categories` - это массив строк, определяющих имена категорий, к которым, предположительно, относится приложение. Нет стандартного списка возможных значений, но W3C поддерживает [список известных категорий](https://github.com/w3c/manifest/wiki/Categories).
 
 > **Примечание:** `categories` используются только в качестве подсказок для каталогов или магазинов, содержащих веб-приложения. Как и поисковые системы и meta ключевые слова, каталоги и магазины могут игнорировать их.
 
@@ -41,12 +36,10 @@ _`categories`_ - это массив строк, определяющих име
 "categories": ["books", "education", "medical"]
 ```
 
-## Specification
+## Спецификации
 
-| Specification                                                                    | Status                       | Comment             | Feedback                                                                         |
-| -------------------------------------------------------------------------------- | ---------------------------- | ------------------- | -------------------------------------------------------------------------------- |
-| {{SpecName('Manifest', '#categories-member', 'categories')}} | {{Spec2('Manifest')}} | Initial definition. | [Web App Manifest Working Group drafts](https://github.com/w3c/manifest/issues/) |
+{{Specifications}}
 
-## Browser compatibility
+## Совместимость с браузерами
 
 {{Compat}}

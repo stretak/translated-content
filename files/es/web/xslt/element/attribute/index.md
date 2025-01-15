@@ -1,14 +1,9 @@
 ---
 title: attribute
 slug: Web/XSLT/Element/attribute
-tags:
-  - Todas_las_Categorías
-  - XSLT
-translation_of: Web/XSLT/Element/attribute
-original_slug: Web/XSLT/attribute
 ---
 
-{{XsltRef}}
+{{XsltSidebar}}{{XsltRef}}
 
 El elemento `<xsl:attribute>` genera un atributo en el documento de salida, usando cualquier valor que puede ser accedido desde la hoja de estilo. Este elemento tiene que ser la primer cosa que se encuentre dentro del elemento del documento de salida para el cual se desea generar el atributo.
 

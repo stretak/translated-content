@@ -1,12 +1,6 @@
 ---
 title: Number.prototype.toExponential()
 slug: Web/JavaScript/Reference/Global_Objects/Number/toExponential
-tags:
-  - JavaScript
-  - Method
-  - Number
-  - Prototype
-translation_of: Web/JavaScript/Reference/Global_Objects/Number/toExponential
 ---
 
 {{JSRef}}
@@ -18,7 +12,7 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Number/toExponential
 ## 구문
 
 ```js
-    numObj.toExponential([fractionDigits])
+numObj.toExponential([fractionDigits]);
 ```
 
 ### 매개변수
@@ -52,11 +46,11 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Number/toExponential
 ```js
 var numObj = 77.1234;
 
-console.log(numObj.toExponential());  // logs 7.71234e+1
+console.log(numObj.toExponential()); // logs 7.71234e+1
 console.log(numObj.toExponential(4)); // logs 7.7123e+1
 console.log(numObj.toExponential(2)); // logs 7.71e+1
-console.log(77.1234.toExponential()); // logs 7.71234e+1
-console.log(77 .toExponential());     // logs 7.7e+1
+console.log((77.1234).toExponential()); // logs 7.71234e+1
+console.log((77).toExponential()); // logs 7.7e+1
 ```
 
 ## 명세

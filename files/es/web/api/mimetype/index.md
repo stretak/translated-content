@@ -1,12 +1,6 @@
 ---
 title: MimeType
 slug: Web/API/MimeType
-tags:
-  - API
-  - Interface
-  - Plugins
-  - Referencia
-translation_of: Web/API/MimeType
 ---
 
 {{SeeCompatTable}}{{APIRef("HTML DOM")}}
@@ -28,6 +22,6 @@ La interfaz **`MimeType`** provee información acerca de un tipo MIME asociado c
 
 {{Specifications}}
 
-## Compatibilidad de Navegadores
+## Compatibilidad con navegadores
 
-{{Compat("api.MimeType")}}
+{{Compat}}

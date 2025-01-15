@@ -1,13 +1,6 @@
 ---
 title: Object.prototype.toLocaleString()
 slug: Web/JavaScript/Reference/Global_Objects/Object/toLocaleString
-tags:
-  - JavaScript
-  - Method
-  - Object
-  - Prototype
-  - Reference
-translation_of: Web/JavaScript/Reference/Global_Objects/Object/toLocaleString
 ---
 
 {{JSRef}}
@@ -19,7 +12,7 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Object/toLocaleString
 ## 구문
 
 ```js
-obj.toLocaleString()
+obj.toLocaleString();
 ```
 
 ### 반환 값

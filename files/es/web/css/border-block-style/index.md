@@ -1,7 +1,6 @@
 ---
 title: border-block-style
 slug: Web/CSS/border-block-style
-translation_of: Web/CSS/border-block-style
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -62,9 +61,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-block-style")}}
+{{Compat}}
 
 ## Mira también
 

@@ -1,11 +1,6 @@
 ---
 title: Cookie
 slug: Web/HTTP/Headers/Cookie
-tags:
-  - Cookies
-  - encabezado
-  - solicitud
-translation_of: Web/HTTP/Headers/Cookie
 ---
 
 {{HTTPSidebar}}
@@ -14,9 +9,9 @@ El encabezado **`Cookie`** de una solicitud HTTP contiene [cookies HTTP](/es/doc
 
 Los encabezados `Cookie` puede ser omitidos por completo, si las preferencias de privacidad del navegador están configuradas para bloquearlos, por ejemplo.
 
-| Header type                                      | {{Glossary("Request header")}} |
-| ------------------------------------------------ | ---------------------------------------- |
-| {{Glossary("Forbidden header name")}} | yes                                      |
+| Header type                           | {{Glossary("Request header")}} |
+| ------------------------------------- | ------------------------------ |
+| {{Glossary("Forbidden header name")}} | yes                            |
 
 ## Sintaxis
 
@@ -27,7 +22,7 @@ Cookie: nombre=valor; nombre2=valor2...nombreN=valorN;
 ```
 
 - \<cookie-lista>
-  - : Una lista de pares `nombre:valor` definidos como `<nombre-de-cookie=<valor-de-cookie>`. Los pares en la lista son separados por un punto y coma seguido de un espacio `('; ')`.
+  - : Una lista de pares `nombre:valor` definidos como `<nombre-de-cookie>=<valor-de-cookie>`. Los pares en la lista son separados por un punto y coma seguido de un espacio `('; ')`.
 
 ## Ejemplos
 
@@ -37,13 +32,11 @@ Cookie: PHPSESSID=298zf09hf012fh2; csrftoken=u32t4o3tb3gg43; _gat=1;
 
 ## Especificaciones
 
-| Specification                                | Title                           |
-| -------------------------------------------- | ------------------------------- |
-| {{RFC("6265", "Cookie", "5.4")}} | HTTP State Management Mechanism |
+{{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("http.headers.Cookie")}}
+{{Compat}}
 
 ## Ver también
 

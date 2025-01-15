@@ -1,8 +1,9 @@
 ---
 title: margin-right
 slug: Web/CSS/margin-right
-translation_of: Web/CSS/margin-right
 ---
+
+{{CSSRef}}
 
 ### Definicion
 

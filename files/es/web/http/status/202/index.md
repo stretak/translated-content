@@ -1,12 +1,6 @@
 ---
 title: 202 Aceptado
 slug: Web/HTTP/Status/202
-tags:
-  - Codigo de Estado
-  - HTTP
-  - Referencia
-  - Respuesta satisfactoria
-translation_of: Web/HTTP/Status/202
 ---
 
 {{HTTPSidebar}}
@@ -21,8 +15,8 @@ El código de respueta de estado del Protocolo de Transferencia de Hipertexto (H
 
 ## Especificaciones
 
-| Specification                                            | Title                                                         |
-| -------------------------------------------------------- | ------------------------------------------------------------- |
+| Specification                             | Title                                                         |
+| ----------------------------------------- | ------------------------------------------------------------- |
 | {{RFC("7231", "202 Accepted" , "6.3.3")}} | Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content |
 
 ## Ver también

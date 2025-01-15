@@ -1,17 +1,6 @@
 ---
 title: API de Solicitud de Pago
 slug: Web/API/Payment_Request_API
-tags:
-  - API
-  - API de Solicitud de Pago
-  - Comercio
-  - Contexto seguro
-  - Intermediário
-  - Pago
-  - Referencia
-  - Solicitud de Pago
-  - Tarjeta de Crédito
-translation_of: Web/API/Payment_Request_API
 ---
 
 {{DefaultAPISidebar("Payment Request API")}}{{securecontext_header}}
@@ -34,7 +23,8 @@ Para solicitar un pago, a página web crea un objeto {{domxref("PaymentRequest")
 
 Puedes encontrar una guía completa en [Usando la API de Solicitud de Pago](/es/docs/Web/API/Payment_Request_API/Using_the_Payment_Request_API).
 
-> **Nota:** La API solo está disponibledentro de elementos {{htmlelement("iframe")}} cross-origin si tienen el atributo {{htmlattrxref("allowpaymentrequest","iframe")}}.
+> [!NOTE]
+> La API solo está disponibledentro de elementos {{htmlelement("iframe")}} cross-origin si tienen el atributo [`allowpaymentrequest`](/es/docs/Web/HTML/Element/iframe#allowpaymentrequest).
 
 ## Interfaces
 
@@ -79,11 +69,9 @@ Puedes encontrar una guía completa en [Usando la API de Solicitud de Pago](/es/
 
 {{Specifications}}
 
-## Compatibilidad del navegador
+## Compatibilidad con navegadores
 
-### Interfaz PaymentRequest
-
-{{Compat("api.PaymentRequest", 0)}}
+{{Compat}}
 
 ## Ver también
 

@@ -1,18 +1,13 @@
 ---
 title: Isolation
 slug: Web/CSS/isolation
-tags:
-  - CSS
-  - Composición CSS
-  - Propieiedad CSS
-translation_of: Web/CSS/isolation
 ---
 
 {{CSSRef}}
 
 ## Resumen
 
-La propiedad CSS **`isolation`**` define si el elemento debe crear un nuevo `{{glossary("stacking context")}}.
+La propiedad CSS **`isolation`** define si el elemento debe crear un nuevo {{glossary("stacking context")}}.
 
 Esto es especialmente útil en conjunto con {{cssxref("background-blend-mode")}} que solo mezclan fondos en un contexto de apilamiento determinado: permite aislar grupos de elementos de sus fondos más profundos y mezclar sus colores de fondo.
 
@@ -57,7 +52,7 @@ isolation: unset;
 
 ```css
 .a {
-  background-color: rgb(0,255,0);
+  background-color: rgb(0, 255, 0);
 }
 #b {
   width: 200px;
@@ -84,9 +79,9 @@ isolation: unset;
 
 {{Specifications}}
 
-## Compatibilidad de navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.isolation")}}
+{{Compat}}
 
 ## También puedes ver
 

@@ -1,10 +1,6 @@
 ---
 title: <length>
 slug: Web/CSS/length
-tags:
-  - Referencia
-  - Tipo de Dato CSS
-translation_of: Web/CSS/length
 ---
 
 {{CSSRef}}
@@ -13,7 +9,7 @@ translation_of: Web/CSS/length
 
 El tipo de dato [CSS](/es/docs/Web/CSS) `<length>` denota medidas de distancia. Es un valor {{cssxref("&lt;number&gt;")}} seguido por una unidad de longitud (`px`, `em`, `pc`, `in`, `mm`, …). Al igual que en cualquier dimensión CSS, no debe haber espacio entre la unidad y el número. La unidad de longitud es opcional después del valor {{cssxref("&lt;number&gt;")}} `0`.
 
-Muchas propiedades CSS ([CSS properties](es/CSS_Reference)) reciben valores `<length>`, como por ejemplo {{ Cssxref("width") }}, {{ Cssxref("margin-top") }}, y {{ Cssxref("font-size") }}.
+Muchas propiedades CSS ([CSS properties](/es/CSS_Reference)) reciben valores `<length>`, como por ejemplo {{ Cssxref("width") }}, {{ Cssxref("margin-top") }}, y {{ Cssxref("font-size") }}.
 
 Para algunas propiedades, el uso de longitudes negativas es un error de sintaxis, mientras que para algunas propiedades está permitido. Nótese que aunque los valores {{cssxref("&lt;percentage&gt;")}} también son dimensiones CSS y son aceptadas por algunas propiedades CSS que aceptan valores `<length>`, no son valores `<length>` en sí.
 
@@ -31,7 +27,8 @@ Los valores de tipo `<length>` pueden ser interpolados para permitir animaciones
 
   - : Esta unidad representa el tamaño calculado de fuente ({{Cssxref("font-size")}}) del elemento. Si se usa dentro de la propiedad {{Cssxref("font-size")}}, representa el tamaño de fuente _heredado_ por el elemento.
 
-    > **Nota:** Esta unidad se usa por lo general para crear interfaces escalables, que mantengan el [ritmo vertical de la página](http://24ways.org/2006/compose-to-a-vertical-rhythm), aun cuando el usuario cambie el tamaño de las fuentes. Las propiedades CSS {{cssxref("line-height")}}, {{cssxref("font-size")}}, {{cssxref("margin-bottom")}} y {{cssxref("margin-top")}} generalemente tienen valores expresados en **em**.
+    > [!NOTE]
+    > Esta unidad se usa por lo general para crear interfaces escalables, que mantengan el [ritmo vertical de la página](http://24ways.org/2006/compose-to-a-vertical-rhythm), aun cuando el usuario cambie el tamaño de las fuentes. Las propiedades CSS {{cssxref("line-height")}}, {{cssxref("font-size")}}, {{cssxref("margin-bottom")}} y {{cssxref("margin-top")}} generalemente tienen valores expresados en **em**.
 
 - `ex`
   - : Esta unidad representa la [altura de la x](https://es.wikipedia.org/wiki/Altura_de_la_x) de la fuente ({{Cssxref("font")}}) del elemento. En fuentes que incluyen la letra 'x', es generalmente la altura de letras minúsculas en la fuente; `1ex ≈ 0.5em` en muchas fuentes.
@@ -41,7 +38,8 @@ Los valores de tipo `<length>` pueden ser interpolados para permitir animaciones
 
   - : Esta unidad representa el tamaño ({{Cssxref("font-size")}}) del elemento raíz (p.ej. el tamaño de fuente del elemento {{HTMLElement("html")}}). Cuando se aplica a {{Cssxref("font-size")}} del elemento raíz, representa su valor inicial.
 
-    > **Nota:** Esta unidad es práctica para crear interfaces perfectamente escalables. Si no es soportada por los navegadores, se puede recurrir a unidades **em**, aunque estas son ligeramente más complejas.
+    > [!NOTE]
+    > Esta unidad es práctica para crear interfaces perfectamente escalables. Si no es soportada por los navegadores, se puede recurrir a unidades **em**, aunque estas son ligeramente más complejas.
 
 #### Longitudes de porcentaje del viewport
 
@@ -68,7 +66,8 @@ Para dispositivos de ppp bajo, la unidad **px** representa el _píxel de referen
 
 Para dispositivos de alto ppp, las pulgadas (`in`), centrímetros (`cm`), milímetros (`mm`) son definidos como su contraparte física. De esta forma, la unidad **px** es definida con relación a ellas (1/96 de 1 pulgada).
 
-> **Nota:** Los usuarios pueden incrementar el tamaño de fuente por razones de accesibilidad. Para permitir interfaces usables sin importar el tamao de fuente, use únicamente unidades de longitud absolutas cuando las características físicas del medio de salida son conocidas, como imágenes de mapa de bits. Al establecer longitudes relacionadas al tamaño de fuente, es preferible usar unidades relativas, como `em` o `rem`.
+> [!NOTE]
+> Los usuarios pueden incrementar el tamaño de fuente por razones de accesibilidad. Para permitir interfaces usables sin importar el tamao de fuente, use únicamente unidades de longitud absolutas cuando las características físicas del medio de salida son conocidas, como imágenes de mapa de bits. Al establecer longitudes relacionadas al tamaño de fuente, es preferible usar unidades relativas, como `em` o `rem`.
 
 - `px`
   - : Relativa al dispositivo de visualización.
@@ -91,7 +90,8 @@ Para dispositivos de alto ppp, las pulgadas (`in`), centrímetros (`cm`), milím
 
 ## Unidades CSS y puntos por pulgada (dots-per-inch)
 
-> **Nota:** La unidad `in` no representa una pulgada física en pantalla, sino `96px`. Esto significa que sin importar la densidad de píxeles real en pantalla, se asume que serán `96ppp`. En dispositivos con mayor densidad de píxeles, `1in` será menor que una pulgada física. De forma similar, `mm`, `cm`, y `pt` no son longitudes absolutas.
+> [!NOTE]
+> La unidad `in` no representa una pulgada física en pantalla, sino `96px`. Esto significa que sin importar la densidad de píxeles real en pantalla, se asume que serán `96ppp`. En dispositivos con mayor densidad de píxeles, `1in` será menor que una pulgada física. De forma similar, `mm`, `cm`, y `pt` no son longitudes absolutas.
 
 Algunos ejemplos específicos:
 
@@ -103,6 +103,6 @@ Algunos ejemplos específicos:
 
 {{Specifications}}
 
-## Compatibilidad de navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.types.length")}}
+{{Compat}}

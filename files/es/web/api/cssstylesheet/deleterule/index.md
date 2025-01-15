@@ -1,7 +1,6 @@
 ---
 title: Stylesheet.deleteRule
 slug: Web/API/CSSStyleSheet/deleteRule
-translation_of: Web/API/CSSStyleSheet/deleteRule
 ---
 
 {{ ApiRef() }}
@@ -28,4 +27,4 @@ stylesheet.deleteRule(index)
 
 ### Especificación
 
-[deleteRule](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html#CSS-CSSStyleSheet-deleteRule)
+[deleteRule](https://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html#CSS-CSSStyleSheet-deleteRule)

@@ -1,8 +1,6 @@
 ---
 title: Geolocation.watchPosition()
 slug: Web/API/Geolocation/watchPosition
-page-type: web-api-instance-method
-browser-compat: api.Geolocation.watchPosition
 l10n:
   sourceCommit: 8573240024adc1eef906b4b2df35567144fd733e
 ---
@@ -45,7 +43,7 @@ function success(pos) {
   const crd = pos.coords;
 
   if (target.latitude === crd.latitude && target.longitude === crd.longitude) {
-    console.log('Felicidades, has llegado a tu destino.');
+    console.log("Felicidades, has llegado a tu destino.");
     navigator.geolocation.clearWatch(id);
   }
 }
@@ -55,14 +53,14 @@ function error(err) {
 }
 
 target = {
-  latitude : 0,
-  longitude: 0
+  latitude: 0,
+  longitude: 0,
 };
 
 options = {
   enableHighAccuracy: false,
   timeout: 5000,
-  maximumAge: 0
+  maximumAge: 0,
 };
 
 id = navigator.geolocation.watchPosition(success, error, options);

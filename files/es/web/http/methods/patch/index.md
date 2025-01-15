@@ -1,12 +1,6 @@
 ---
 title: PATCH
 slug: Web/HTTP/Methods/PATCH
-tags:
-  - HTTP
-  - Método HTTP
-  - Referencia
-  - Request method
-translation_of: Web/HTTP/Methods/PATCH
 ---
 
 {{HTTPSidebar}}
@@ -46,7 +40,7 @@ Otra indicación (implícita) de que las peticiones PATCH son permitidas, es la 
     <tr>
       <th scope="row">
         Permitido en
-        <a href="/en-US/docs/Web/Guide/HTML/Forms">formularios HTML</a>
+        <a href="/es/docs/Web/Guide/HTML/Forms">formularios HTML</a>
       </th>
       <td>No</td>
     </tr>
@@ -63,7 +57,7 @@ PATCH /file.txt HTTP/1.1
 
 ### Petición
 
-```html
+```http
 PATCH /file.txt HTTP/1.1
 Host: www.example.com
 Content-Type: application/example
@@ -85,8 +79,8 @@ ETag: "e0023aa4f"
 
 ## Especificaciones
 
-| Especificación                   | Título                |
-| -------------------------------- | --------------------- |
+| Especificación           | Título                |
+| ------------------------ | --------------------- |
 | {{RFC("5789", "PATCH")}} | PATCH Method for HTTP |
 
 ## Ver también

@@ -1,9 +1,6 @@
 ---
 title: element.hasFocus
 slug: Web/API/Document/hasFocus
-tags:
-  - Referencia_DOM_de_Gecko
-translation_of: Web/API/Document/hasFocus
 ---
 
 {{ ApiRef() }}
@@ -15,7 +12,7 @@ El atributo `hasFocus` devuelve `true` si el foco está en en algún sitio del d
 ### Sintaxis
 
 ```js
-focused = element.hasFocus
+focused = element.hasFocus;
 ```
 
 ## Especificaciones

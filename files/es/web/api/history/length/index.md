@@ -1,16 +1,6 @@
 ---
 title: History.length
 slug: Web/API/History/length
-tags:
-  - API
-  - DOM HTML
-  - Historial de navegación
-  - History
-  - Lectura
-  - Navegador
-  - Propiedad
-  - historial
-translation_of: Web/API/History/length
 ---
 
 {{APIRef("History API")}}
@@ -27,9 +17,9 @@ const length = history.length
 
 {{Specifications}}
 
-## Compatibilidad de Navegadores
+## Compatibilidad con navegadores
 
-{{Compat("api.History.length")}}
+{{Compat}}
 
 ## Mira también
 

@@ -5,7 +5,7 @@ slug: Web/HTTP/Headers/TE
 
 {{HTTPSidebar}}
 
-O cabeçalho de requisição **`TE`** especifica a codificação de transferência que o agente de usuário está propício a aceitar (você poderia informalmente chamar ele de _`Accept-Transfer-Encoding`_, o que seria mais intuitivo).
+O cabeçalho de requisição **`TE`** especifica a codificação de transferência que o agente de usuário está propício a aceitar (você poderia informalmente chamar ele de `Accept-Transfer-Encoding`, o que seria mais intuitivo).
 
 > **Nota:** [Em HTTP/2 - o cabeçalho `TE` somente é aceito se o valor `trailers` é colocado.](https://tools.ietf.org/html/rfc7540#section-8.1.2.2)
 
@@ -51,13 +51,13 @@ TE: trailers, deflate;q=0.5
 
 ## Especificações
 
-| Especificação                        | Título                                                             |
-| ------------------------------------ | ------------------------------------------------------------------ |
+| Especificação                | Título                                                             |
+| ---------------------------- | ------------------------------------------------------------------ |
 | {{RFC("7230", "TE", "4.3")}} | Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing |
 
 ## Compatibilidade com navegadores
 
-{{Compat("http.headers.TE")}}
+{{Compat}}
 
 ## Veja também
 
