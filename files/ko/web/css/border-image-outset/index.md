@@ -1,12 +1,6 @@
 ---
 title: border-image-outset
 slug: Web/CSS/border-image-outset
-tags:
-  - CSS
-  - CSS Borders
-  - CSS Property
-  - Reference
-translation_of: Web/CSS/border-image-outset
 ---
 
 {{CSSRef}}
@@ -75,7 +69,7 @@ border-image-outset: unset;
   background: #cef;
   border: 1.4rem solid;
   border-image: radial-gradient(#ff2, #55f) 40;
-  border-image-outset: 1.5;  /* = 1.5 * 1.4rem = 2.1rem */
+  border-image-outset: 1.5; /* = 1.5 * 1.4rem = 2.1rem */
   margin: 2.1rem;
 }
 ```

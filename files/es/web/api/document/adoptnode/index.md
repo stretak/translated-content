@@ -1,13 +1,6 @@
 ---
 title: Document.adoptNode()
 slug: Web/API/Document/adoptNode
-tags:
-  - API
-  - DOM
-  - DOM Reference
-  - Referencia
-  - metodo
-translation_of: Web/API/Document/adoptNode
 ---
 
 {{ ApiRef("DOM") }}
@@ -28,11 +21,11 @@ node = document.adoptNode(externalNode);
 ## Ejemplo
 
 ```js
-var iframe = document.querySelector('iframe');
-var iframeImages = iframe.contentDocument.querySelectorAll('img');
-var newParent = document.getElementById('images');
+var iframe = document.querySelector("iframe");
+var iframeImages = iframe.contentDocument.querySelectorAll("img");
+var newParent = document.getElementById("images");
 
-iframeImages.forEach(function(imgEl) {
+iframeImages.forEach(function (imgEl) {
   newParent.appendChild(document.adoptNode(imgEl));
 });
 ```

@@ -1,7 +1,6 @@
 ---
 title: inset-block-start
 slug: Web/CSS/inset-block-start
-translation_of: Web/CSS/inset-block-start
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -70,9 +69,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.inset-block-start")}}
+{{Compat}}
 
 ## Mira también
 

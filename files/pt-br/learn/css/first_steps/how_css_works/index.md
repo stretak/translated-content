@@ -22,7 +22,7 @@ Nós aprendemos o básico de CSS, porque e como escrever simples folhas de estí
           href="https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/Dealing_with_files"
           >trabalhar com arquivos</a
         >, e o básico de HTML (estude
-        <a href="/en-US/docs/Learn/HTML/Introduction_to_HTML"
+        <a href="/pt-BR/docs/Learn/HTML/Introduction_to_HTML"
           >Introdução ao HTML</a
         >.)
       </td>
@@ -92,7 +92,9 @@ Esta é a forma como um browser interpreta o nosso trecho de documento HTML acim
 {{EmbedLiveSample('A_real_DOM_representation', '100%', 55)}}
 
 ```css hidden
-p {margin:0;}
+p {
+  margin: 0;
+}
 ```
 
 ## Aplicando CSS ao DOM
@@ -127,7 +129,7 @@ Em nosso artigo [Debugging CSS](/pt-BR/docs/Learn/CSS/Building_blocks/Debugging_
 
 ## O que acontece se um navegador não entende o CSS encontrado?
 
-[Em uma lição anterior](/pt-BR/docs/Learn/CSS/First_steps/What_is_CSS#Browser_support), eu mencionei que navegadores não implementam todo o novo CSS ao mesmo tempo. Em adição, muitas pessoas não usam a versão mais recente de um navegador. Dado que o CSS é processado o tempo todo, e que portanto está adiantado em relação ao que os browsers podem reconhecer, você pode imaginar o que acontece se um browser encontra um seletor ou uma declaração CSS que ele não reconhece.
+[Em uma lição anterior](/pt-BR/docs/Learn/CSS/First_steps/What_is_CSS#browser_support), eu mencionei que navegadores não implementam todo o novo CSS ao mesmo tempo. Em adição, muitas pessoas não usam a versão mais recente de um navegador. Dado que o CSS é processado o tempo todo, e que portanto está adiantado em relação ao que os browsers podem reconhecer, você pode imaginar o que acontece se um browser encontra um seletor ou uma declaração CSS que ele não reconhece.
 
 A resposta é que ele não faz nada e vai para o próximo conteúdo em CSS!
 
@@ -138,7 +140,7 @@ Similarmente, se um browser encontra um seletor que não comprende, ele o ignora
 No exemplo abaixo usei a grafia em inglês britânico para a propriedade cor, o que a torna inválida e portanto ela não é reconhecida. Por isso, o parágrafo não recebe a coloração azul. Todos os outros CSS foram aplicados, no entanto, apenas aquele que foi considerado inválido foi ignorado.
 
 ```html
-<p> Quero que este texto esteja grande, em negrito, e azul.</p>
+<p>Quero que este texto esteja grande, em negrito, e azul.</p>
 ```
 
 ```css
@@ -169,11 +171,3 @@ Iremos visualizar várias outras maneiras de auxiliar diferentes browsers em li�
 Você está quase encerrando este módulo; só temos mais uma tarefa para fazer. No próximo artigo, você utilizará seu novo conhecimento para reestilizar um exemplo, testando seus aprendizados de CSS no processo.
 
 {{PreviousMenuNext("Learn/CSS/First_steps/How_CSS_is_structured", "Learn/CSS/First_steps/Using_your_new_knowledge", "Learn/CSS/First_steps")}}
-
-## Neste módulo
-
-1. [O que é CSS?](/pt-BR/docs/Learn/CSS/First_steps/What_is_CSS)
-2. [Começando com CSS](/pt-BR/docs/Learn/CSS/First_steps/Getting_started)
-3. [Como o CSS é estruturado](/pt-BR/docs/Learn/CSS/First_steps/How_CSS_is_structured)
-4. [Como o CSS funciona](/pt-BR/docs/Learn/CSS/First_steps/How_CSS_works)
-5. [Utilizando seu novo conhecimento](/pt-BR/docs/Learn/CSS/First_steps/Using_your_new_knowledge)

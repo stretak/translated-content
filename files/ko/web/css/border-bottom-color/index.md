@@ -1,12 +1,6 @@
 ---
 title: border-bottom-color
 slug: Web/CSS/border-bottom-color
-tags:
-  - CSS
-  - CSS Borders
-  - CSS Property
-  - Reference
-translation_of: Web/CSS/border-bottom-color
 ---
 
 {{CSSRef}}
@@ -51,9 +45,10 @@ border-bottom-color: unset;
 
 ```html
 <div class="mybox">
-  <p>This is a box with a border around it.
-     Note which side of the box is
-     <span class="redtext">red</span>.</p>
+  <p>
+    This is a box with a border around it. Note which side of the box is
+    <span class="redtext">red</span>.
+  </p>
 </div>
 ```
 
@@ -63,7 +58,7 @@ border-bottom-color: unset;
 .mybox {
   border: solid 0.3em gold;
   border-bottom-color: red;
-    width: auto;
+  width: auto;
 }
 
 .redtext {

@@ -1,12 +1,6 @@
 ---
 title: Crypto
 slug: Web/API/Crypto
-tags:
-  - API
-  - Interfaz
-  - Referencia
-  - Web Crypto API
-translation_of: Web/API/Crypto
 ---
 
 {{APIRef("Web Crypto API")}}
@@ -33,9 +27,9 @@ _Esta interfaz implementa las propiedades definidas en {{domxref("RandomSource")
 
 {{Specifications}}
 
-## Compatibilidad del navegador
+## Compatibilidad con navegadores
 
-{{Compat("api.Crypto")}}
+{{Compat}}
 
 ## Ver también
 

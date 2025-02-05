@@ -1,8 +1,6 @@
 ---
 title: Geolocation.getCurrentPosition()
 slug: Web/API/Geolocation/getCurrentPosition
-page-type: web-api-instance-method
-browser-compat: api.Geolocation.getCurrentPosition
 l10n:
   sourceCommit: 8573240024adc1eef906b4b2df35567144fd733e
 ---
@@ -44,13 +42,13 @@ Ninguno ({{jsxref("undefined")}}).
 const options = {
   enableHighAccuracy: true,
   timeout: 5000,
-  maximumAge: 0
+  maximumAge: 0,
 };
 
 function success(pos) {
   const crd = pos.coords;
 
-  console.log('Tu ubicación actual es:');
+  console.log("Tu ubicación actual es:");
   console.log(`Latitud : ${crd.latitude}`);
   console.log(`Longitud: ${crd.longitude}`);
   console.log(`Más o menos ${crd.accuracy} metros.`);

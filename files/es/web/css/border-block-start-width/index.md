@@ -1,7 +1,6 @@
 ---
 title: border-block-start-width
 slug: Web/CSS/border-block-start-width
-translation_of: Web/CSS/border-block-start-width
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -63,9 +62,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-block-start-width")}}
+{{Compat}}
 
 ## Mira también
 

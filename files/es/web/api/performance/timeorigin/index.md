@@ -1,14 +1,6 @@
 ---
 title: Performance.timeOrigin
 slug: Web/API/Performance/timeOrigin
-tags:
-  - API
-  - Experimental
-  - Propiedad
-  - Referencia
-  - Rendimiento
-  - timeOrigin
-translation_of: Web/API/Performance/timeOrigin
 ---
 
 {{SeeCompatTable}}{{APIRef("High Resolution Time")}}
@@ -31,6 +23,6 @@ Una marca de tiempo de alta precisión.
 
 {{Specifications}}
 
-## Compatibilidad de navegadores
+## Compatibilidad con navegadores
 
-{{Compat("api.Performance.timeOrigin")}}
+{{Compat}}

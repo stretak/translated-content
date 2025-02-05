@@ -1,13 +1,6 @@
 ---
 title: Boolean.prototype.toString()
 slug: Web/JavaScript/Reference/Global_Objects/Boolean/toString
-tags:
-  - Boolean
-  - JavaScript
-  - Method
-  - Prototype
-  - Reference
-translation_of: Web/JavaScript/Reference/Global_Objects/Boolean/toString
 ---
 
 {{JSRef}}
@@ -19,7 +12,7 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Boolean/toString
 ## 구문
 
 ```js
-    bool.toString()
+bool.toString();
 ```
 
 ### 반환 값

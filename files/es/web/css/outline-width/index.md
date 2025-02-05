@@ -1,10 +1,6 @@
 ---
 title: outline-width
 slug: Web/CSS/outline-width
-tags:
-  - Contorno CSS
-  - Propiedad CSS
-translation_of: Web/CSS/outline-width
 ---
 
 {{CSSRef}}
@@ -99,6 +95,6 @@ span {
 
 {{Specifications}}
 
-## Compatibilidad de navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.outline-width")}}
+{{Compat}}

@@ -1,7 +1,6 @@
 ---
 title: margin-inline-start
 slug: Web/CSS/margin-inline-start
-translation_of: Web/CSS/margin-inline-start
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -14,9 +13,9 @@ The **`margin-inline-start`** define el margen de inicio en línea lógico de un
 
 ```css
 /* <length> values */
-margin-inline-start: 10px;  /* An absolute length */
-margin-inline-start: 1em;   /* relative to the text size */
-margin-inline-start: 5%;    /* relative to the nearest block container's width */
+margin-inline-start: 10px; /* An absolute length */
+margin-inline-start: 1em; /* relative to the text size */
+margin-inline-start: 5%; /* relative to the nearest block container's width */
 
 /* Keyword values */
 margin-inline-start: auto;
@@ -69,9 +68,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.margin-inline-start")}}
+{{Compat}}
 
 ## Mira también
 

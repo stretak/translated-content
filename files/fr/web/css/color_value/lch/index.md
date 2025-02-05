@@ -21,11 +21,11 @@ lch(52.2345% 72.2 56.2 / .5)
 
 - `lch(L C H [/ A])`
 
-  - : `L` indique la luminosité [CIE](https://fr.wikipedia.org/wiki/Commission_internationale_de_l%27%C3%A9clairage) sous la forme d'un pourcentage (type [`<percentage>`](/fr/docs/Web/CSS/percentage)) compris entre `0%`, pour le noir, et `100%`, pour le blanc.
+  - : `L` indique la luminosité [CIE](https://fr.wikipedia.org/wiki/Commission_internationale_de_l%27éclairage) sous la forme d'un pourcentage (type [`<percentage>`](/fr/docs/Web/CSS/percentage)) compris entre `0%`, pour le noir, et `100%`, pour le blanc.
 
     Le deuxième argument, `C`, indique la [chroma](https://fr.wikipedia.org/wiki/Chrominance) (indiquant en quelque sorte la quantité de couleur). Sa valeur minimale est 0 et sa valeur maximale est théoriquement infinie, bien qu'elle n'excède pas `0.4` en pratique.
 
-    Le troisième argument, `H` correspond à l'angle pour la teinte (<i lang="en">hue</i> en anglais). `0deg` pointe  selon l'axe positif "a" (un rouge pourpre), `90deg` pointe selon l'axe positif "b" (jaune moutarde), `180deg` pointe selon l'axe négatif "a" (un cyan vert), et `270deg` pointe selon l'axe négatif "b" (bleu ciel).
+    Le troisième argument, `H` correspond à l'angle pour la teinte (<i lang="en">hue</i> en anglais). `0deg` pointe selon l'axe positif "a" (un rouge pourpre), `90deg` pointe selon l'axe positif "b" (jaune moutarde), `180deg` pointe selon l'axe négatif "a" (un cyan vert), et `270deg` pointe selon l'axe négatif "b" (bleu ciel).
 
     `A` (alpha) peut être un nombre (type [`<number>`](/fr/docs/Web/CSS/number)) compris entre `0` et `1`, ou un pourcentage (type [`<percentage>`](/fr/docs/Web/CSS/percentage)), où `1` correspond à `100%` (opacité complète).
 

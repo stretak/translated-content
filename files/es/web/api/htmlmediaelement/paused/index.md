@@ -1,7 +1,6 @@
 ---
 title: HTMLMediaElement.paused
 slug: Web/API/HTMLMediaElement/paused
-translation_of: Web/API/HTMLMediaElement/paused
 ---
 
 {{APIRef("HTML DOM")}}
@@ -21,7 +20,7 @@ Es un {{domxref("Boolean")}}. Mostrara **true** si está pausado y **false** en 
 ## Ejemplo
 
 ```js
-var obj = document.createElement('video');
+var obj = document.createElement("video");
 console.log(obj.paused); // true
 ```
 
@@ -31,7 +30,7 @@ console.log(obj.paused); // true
 
 ## Compatibilidad con navegadores
 
-{{Compat("api.HTMLMediaElement.paused")}}
+{{Compat}}
 
 ## Ver también
 

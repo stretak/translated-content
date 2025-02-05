@@ -1,12 +1,6 @@
 ---
 title: border-image-slice
 slug: Web/CSS/border-image-slice
-tags:
-  - Bordes CSS
-  - CSS
-  - Propiedad CSS
-  - Referencia
-translation_of: Web/CSS/border-image-slice
 ---
 
 {{CSSRef}}
@@ -79,10 +73,10 @@ border-image-slice: unset;
 
 {{Specifications}}
 
-## Compatibilidad de navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-image-slice")}}
+{{Compat}}
 
 ## Véase también
 
-- [Illustrated description of the 1-to-4-value syntax](/es/docs/Web/CSS/Shorthand_properties#Tricky_edge_cases)
+- [Illustrated description of the 1-to-4-value syntax](/es/docs/Web/CSS/Shorthand_properties#tricky_edge_cases)

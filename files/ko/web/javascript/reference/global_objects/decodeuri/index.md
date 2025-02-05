@@ -1,18 +1,6 @@
 ---
 title: decodeURI()
 slug: Web/JavaScript/Reference/Global_Objects/decodeURI
-tags:
-  - Decode
-  - JavaScript
-  - Method
-  - String
-  - Text
-  - URI
-  - URL
-  - decodeURI
-  - decoding
-browser-compat: javascript.builtins.decodeURI
-translation_of: Web/JavaScript/Reference/Global_Objects/decodeURI
 ---
 
 {{jsSidebar("Objects")}}
@@ -49,20 +37,22 @@ decodeURI(encodedURI)
 ### 키릴 URL 디코딩
 
 ```js
-decodeURI('https://developer.mozilla.org/ru/docs/JavaScript_%D1%88%D0%B5%D0%BB%D0%BB%D1%8B');
+decodeURI(
+  "https://developer.mozilla.org/ru/docs/JavaScript_%D1%88%D0%B5%D0%BB%D0%BB%D1%8B",
+);
 // "https://developer.mozilla.org/ru/docs/JavaScript_шеллы"
 ```
 
 ### 예외 처리
 
 ```js
-    try {
-      var a = decodeURI('%E0%A4%A');
-    } catch(e) {
-      console.error(e);
-    }
+try {
+  var a = decodeURI("%E0%A4%A");
+} catch (e) {
+  console.error(e);
+}
 
-    // URIError: malformed URI sequence
+// URIError: malformed URI sequence
 ```
 
 ## 사양

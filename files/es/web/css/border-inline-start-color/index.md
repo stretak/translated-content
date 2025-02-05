@@ -1,7 +1,6 @@
 ---
 title: border-inline-start-color
 slug: Web/CSS/border-inline-start-color
-translation_of: Web/CSS/border-inline-start-color
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -62,9 +61,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-inline-start-color")}}
+{{Compat}}
 
 ## Mira también
 

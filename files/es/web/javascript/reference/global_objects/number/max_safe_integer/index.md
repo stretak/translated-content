@@ -1,13 +1,6 @@
 ---
 title: Number.MAX_SAFE_INTEGER
 slug: Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER
-tags:
-  - ECMAScript 2015
-  - JavaScript
-  - Number
-  - Property
-translation_of: Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER
-original_slug: Web/JavaScript/Referencia/Objetos_globales/Number/MAX_SAFE_INTEGER
 ---
 
 {{JSRef}}
@@ -31,8 +24,8 @@ Debido a que `MAX_SAFE_INTEGER` es una propiedad estática de {{jsxref("Number")
 ## Ejemplos
 
 ```js
-Number.MAX_SAFE_INTEGER // 9007199254740991
-Math.pow(2, 53) - 1     // 9007199254740991
+Number.MAX_SAFE_INTEGER; // 9007199254740991
+Math.pow(2, 53) - 1; // 9007199254740991
 ```
 
 ## Especificaciones
@@ -41,7 +34,7 @@ Math.pow(2, 53) - 1     // 9007199254740991
 
 ## Compatibilidad con navegadores
 
-{{Compat("javascript.builtins.Number.MAX_SAFE_INTEGER")}}
+{{Compat}}
 
 ## Ver también
 

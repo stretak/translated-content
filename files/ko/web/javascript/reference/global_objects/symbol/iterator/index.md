@@ -1,7 +1,6 @@
 ---
 title: Symbol.iterator
 slug: Web/JavaScript/Reference/Global_Objects/Symbol/iterator
-translation_of: Web/JavaScript/Reference/Global_Objects/Symbol/iterator
 ---
 
 {{JSRef}}
@@ -31,13 +30,13 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Symbol/iterator
 앞에서 기술한 바와 같이 독자적으로 이터레이터를 만드는 것이 가능합니다.
 
 ```js
-var myIterable = {}
+var myIterable = {};
 myIterable[Symbol.iterator] = function* () {
-    yield 1;
-    yield 2;
-    yield 3;
+  yield 1;
+  yield 2;
+  yield 3;
 };
-[...myIterable] // [1, 2, 3]
+[...myIterable]; // [1, 2, 3]
 ```
 
 ### 비정형 이터레이터
@@ -54,7 +53,7 @@ nonWellFormedIterable[Symbol.iterator] = () => 1
 
 {{Specifications}}
 
-## Browser compatibility
+## 브라우저 호환성
 
 {{Compat}}
 

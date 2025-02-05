@@ -1,22 +1,19 @@
 ---
 title: initial
 slug: Web/CSS/initial
-tags:
-  - CSS
-  - CSS:Referencias
-  - Todas_las_Categorías
-translation_of: Web/CSS/initial
 ---
 
-[Guía de referencia de CSS](es/Gu%c3%ada_de_referencia_de_CSS)
+{{CSSRef}}
+
+[Guía de referencia de CSS](/es/Gu%c3%ada_de_referencia_de_CSS)
 
 ### Resumen
 
-**initial** es un valor permitido en todas las propiedades CSS. Fuerza la utilización del [valor inicial](es/CSS/Valor_inicial) de la propiedad para el elemento al cual se aplica.
+**initial** es un valor permitido en todas las propiedades CSS. Fuerza la utilización del [valor inicial](/es/docs/Web/CSS/initial_value) de la propiedad para el elemento al cual se aplica.
 
 #### Para propiedades no heredadas
 
-Para las propiedades [no heredadas](es/CSS/inheritance#propiedades_heredadas_y_no_heredadas), este valor refuerza el comportamiento por defecto y es necesario sólo para sobrescribir otra regla. Por ejemplo:
+Para las propiedades [no heredadas](/es/docs/Web/CSS/Inheritance#propiedades_heredadas_y_no_heredadas), este valor refuerza el comportamiento por defecto y es necesario sólo para sobrescribir otra regla. Por ejemplo:
 
 ```
  /* definimos un borde verde de un encabezamiento de segundo nivel */
@@ -30,12 +27,12 @@ Para las propiedades [no heredadas](es/CSS/inheritance#propiedades_heredadas_y_n
 
 #### Para propiedades heredadas
 
-Para las propiedades [heredadas](es/CSS/inheritance#propiedades_heredadas_y_no_heredadas), se usa menos ya que no refuerza el comportamiento por defecto.
+Para las propiedades [heredadas](/es/docs/Web/CSS/Inheritance#propiedades_heredadas_y_no_heredadas), se usa menos ya que no refuerza el comportamiento por defecto.
 
 ### Especificaciones
 
-- [css3-values](http://www.w3.org/TR/css3-values/#keywords)
-- [css3-cascade](http://www.w3.org/TR/css3-cascade/#initial0)
+- [css3-values](https://www.w3.org/TR/css3-values/#keywords)
+- [css3-cascade](https://www.w3.org/TR/css3-cascade/#initial0)
 
 ### Compatibilidad
 
@@ -43,7 +40,7 @@ Sólo algunas especificaciones son soportadas en Firefox (las cuales se incremen
 
 ### Ver también
 
-[inherit](es/CSS/inherit)
+[inherit](/es/docs/Web/CSS/inherit)
 
 Categorías
 

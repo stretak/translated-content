@@ -1,13 +1,6 @@
 ---
 title: Reflect.setPrototypeOf()
 slug: Web/JavaScript/Reference/Global_Objects/Reflect/setPrototypeOf
-tags:
-  - ECMAScript 2015
-  - JavaScript
-  - Method
-  - Reference
-  - Reflect
-translation_of: Web/JavaScript/Reference/Global_Objects/Reflect/setPrototypeOf
 ---
 
 {{JSRef}}
@@ -19,7 +12,7 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Reflect/setPrototypeOf
 ## 구문
 
 ```js
-Reflect.setPrototypeOf(target, prototype)
+Reflect.setPrototypeOf(target, prototype);
 ```
 
 ### 매개변수

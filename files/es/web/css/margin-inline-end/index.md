@@ -1,7 +1,6 @@
 ---
 title: margin-inline-end
 slug: Web/CSS/margin-inline-end
-translation_of: Web/CSS/margin-inline-end
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -14,9 +13,9 @@ La propiedad de [CSS](/es/docs/Web/CSS) **`margin-inline-end`** define el margen
 
 ```css
 /* <length> values */
-margin-inline-end: 10px;   /* An absolute length */
-margin-inline-end: 1em;    /* relative to the text size */
-margin-inline-end: 5%;     /* relative to the nearest block container's width */
+margin-inline-end: 10px; /* An absolute length */
+margin-inline-end: 1em; /* relative to the text size */
+margin-inline-end: 5%; /* relative to the nearest block container's width */
 
 /* Keyword values */
 margin-inline-end: auto;
@@ -71,9 +70,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.margin-inline-end")}}
+{{Compat}}
 
 ## Mira también
 

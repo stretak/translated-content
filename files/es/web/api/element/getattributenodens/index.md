@@ -1,12 +1,6 @@
 ---
 title: Element.getAttributeNodeNS()
 slug: Web/API/Element/getAttributeNodeNS
-tags:
-  - API
-  - DOM
-  - Referencia
-  - metodo
-translation_of: Web/API/Element/getAttributeNodeNS
 ---
 
 {{ APIRef }}
@@ -18,7 +12,7 @@ Dados namespace y nodeName del element, devuelve su `Attr` .
 ## Sintaxis
 
 ```js
-attributeNode = element.getAttributeNodeNS(namespace,nodeName)
+attributeNode = element.getAttributeNodeNS(namespace, nodeName);
 ```
 
 - `attributeNode` es el nodo para el atributo especificado.
@@ -28,8 +22,6 @@ attributeNode = element.getAttributeNodeNS(namespace,nodeName)
 ## Notas
 
 `getAttributeNodeNS` es más específica [getAttributeNode](en/DOM/element.getAttributeNode) en el sentido de que puedes especificar atributos de un namespace en particular. Su método setter es [setAttributeNodeNS](en/DOM/element.setAttributeNodeNS).
-
-{{ DOMAttributeMethods() }}
 
 ## Especificaciones
 

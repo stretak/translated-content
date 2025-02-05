@@ -1,8 +1,6 @@
 ---
 title: brightness()
 slug: Web/CSS/filter-function/brightness
-translation_of: Web/CSS/filter-function/brightness()
-original_slug: Web/CSS/filter-function/brightness()
 ---
 
 {{cssref}}

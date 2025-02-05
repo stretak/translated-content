@@ -1,14 +1,6 @@
 ---
 title: NodeList.prototype.forEach()
 slug: Web/API/NodeList/forEach
-tags:
-  - DOM
-  - Iterable
-  - Métodos
-  - NodeList
-  - Referencia
-  - Web
-translation_of: Web/API/NodeList/forEach
 ---
 
 {{APIRef("DOM")}}
@@ -81,12 +73,12 @@ Este {{Glossary("Polyfill","polyfill")}} le da compatibilidad a todos los navega
 
 ```js
 if (window.NodeList && !NodeList.prototype.forEach) {
-   NodeList.prototype.forEach = function (callback, thisArg) {
-        thisArg = thisArg || window;
-       for (var i = 0; i < this.length; i++) {
-           callback.call(thisArg, this[i], i, this);
-       }
-    };
+  NodeList.prototype.forEach = function (callback, thisArg) {
+    thisArg = thisArg || window;
+    for (var i = 0; i < this.length; i++) {
+      callback.call(thisArg, this[i], i, this);
+    }
+  };
 }
 ```
 
@@ -94,7 +86,7 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 
 ```js
 if (window.NodeList && !NodeList.prototype.forEach) {
-    NodeList.prototype.forEach = Array.prototype.forEach;
+  NodeList.prototype.forEach = Array.prototype.forEach;
 }
 ```
 
@@ -104,9 +96,9 @@ El comportamiento ateriror esta implementado en muchos navegadores. NodeList.pro
 
 {{Specifications}}
 
-## Compatibilidad en Navegadores
+## Compatibilidad con navegadores
 
-{{Compat("api.NodeList.forEach")}}
+{{Compat}}
 
 ## Ver también
 

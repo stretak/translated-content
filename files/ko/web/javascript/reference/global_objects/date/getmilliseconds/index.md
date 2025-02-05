@@ -1,13 +1,6 @@
 ---
 title: Date.prototype.getMilliseconds()
 slug: Web/JavaScript/Reference/Global_Objects/Date/getMilliseconds
-tags:
-  - Date
-  - JavaScript
-  - Method
-  - Prototype
-  - Reference
-translation_of: Web/JavaScript/Reference/Global_Objects/Date/getMilliseconds
 ---
 
 {{JSRef}}
@@ -19,7 +12,7 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Date/getMilliseconds
 ## 구문
 
 ```js
-    dateObj.getMilliseconds()
+dateObj.getMilliseconds();
 ```
 
 ### 반환 값

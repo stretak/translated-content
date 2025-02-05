@@ -1,18 +1,6 @@
 ---
-title: '::cue'
+title: "::cue"
 slug: Web/CSS/::cue
-tags:
-  - '::cue'
-  - Archivos multimedia
-  - CSS
-  - Formato de pistas de texto para la web
-  - Pseudo-elemento
-  - Referencia
-  - Selector
-  - WebVTT
-  - anotaciones
-  - subtítulos
-translation_of: Web/CSS/::cue
 ---
 
 {{CSSRef}}
@@ -87,9 +75,9 @@ El siguiente CSS ajusta el estilo de las anotaciones para que el texto sea blanc
 
 {{Specifications}}
 
-## Compatibilidad con los navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.selectors.cue")}}
+{{Compat}}
 
 ## Ver también
 

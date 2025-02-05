@@ -1,7 +1,6 @@
 ---
 title: border-block-start
 slug: Web/CSS/border-block-start
-translation_of: Web/CSS/border-block-start
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -70,9 +69,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-block-start")}}
+{{Compat}}
 
 ## Mira también
 

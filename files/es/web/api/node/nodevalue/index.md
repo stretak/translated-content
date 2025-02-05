@@ -1,7 +1,6 @@
 ---
 title: Node.nodeValue
 slug: Web/API/Node/nodeValue
-translation_of: Web/API/Node/nodeValue
 ---
 
 {{APIRef("DOM")}}
@@ -40,4 +39,4 @@ Cuando `nodeValue` es definido como `null`, actualizarlo no tiene efecto.
 
 ## Especificación
 
-- [DOM Level 2 Core: Node.nodeValue](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-F68D080)
+- [DOM Level 2 Core: Node.nodeValue](https://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-F68D080)

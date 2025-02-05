@@ -1,11 +1,6 @@
 ---
-title: '-webkit-text-stroke-color'
+title: "-webkit-text-stroke-color"
 slug: Web/CSS/-webkit-text-stroke-color
-tags:
-  - CSS
-  - No estándar(2)
-  - Propiedad CSS
-translation_of: Web/CSS/-webkit-text-stroke-color
 ---
 
 {{CSSRef}}{{Non-standard_header}}
@@ -43,9 +38,9 @@ La propiedad CSS **`-webkit-text-stroke-color`** especifica el [color](/es/docs/
 
 {{Specifications}}
 
-## Compatibilidad con los distintos navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.-webkit-text-stroke-color")}}
+{{Compat}}
 
 ## Ver además
 

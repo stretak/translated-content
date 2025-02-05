@@ -1,13 +1,6 @@
 ---
-title: ':indeterminate'
+title: ":indeterminate"
 slug: Web/CSS/:indeterminate
-tags:
-  - CSS
-  - Diseño
-  - Pseudo-clase
-  - Referencia
-  - Web
-translation_of: Web/CSS/:indeterminate
 ---
 
 {{CSSRef}}
@@ -41,11 +34,11 @@ Este ejemplo aplica estilos especiales a las etiquetas asociadas con campos de f
 
 ```html
 <div>
-  <input type="checkbox" id="checkbox">
+  <input type="checkbox" id="checkbox" />
   <label for="checkbox">Esta etiqueta comienza con el color lima.</label>
 </div>
 <div>
-  <input type="radio" id="radio">
+  <input type="radio" id="radio" />
   <label for="radio">Esta etiqueta comienza con el color lima.</label>
 </div>
 ```
@@ -68,7 +61,7 @@ for (var i = 0; i < inputs.length; i++) {
 }
 ```
 
-### Resultado
+#### Resultado
 
 {{EmbedLiveSample('Checkbox_y_radio_button', 'auto', 50)}}
 
@@ -77,7 +70,7 @@ for (var i = 0; i < inputs.length; i++) {
 #### HTML
 
 ```html
-<progress>
+<progress></progress>
 ```
 
 #### CSS
@@ -94,7 +87,7 @@ progress:indeterminate {
 }
 ```
 
-### Resultado
+#### Resultado
 
 {{EmbedLiveSample('Barra_de_progreso', 'auto', 30)}}
 
@@ -104,4 +97,4 @@ progress:indeterminate {
 
 ## Compatibilidad con navegadores
 
-{{Compat("css.selectors.indeterminate")}}
+{{Compat}}

@@ -1,13 +1,6 @@
 ---
 title: border-left
 slug: Web/CSS/border-left
-tags:
-  - CSS
-  - CSS Borders
-  - CSS Property
-  - Reference
-  - 테두리
-translation_of: Web/CSS/border-left
 ---
 
 {{CSSRef}}
@@ -56,9 +49,7 @@ border-left: medium dashed green;
 ## 예제
 
 ```html
-<div>
-  왼쪽 테두리를 가진 요소입니다.
-</div>
+<div>왼쪽 테두리를 가진 요소입니다.</div>
 ```
 
 ```css

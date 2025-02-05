@@ -1,7 +1,6 @@
 ---
 title: MutationObserver.observe()
 slug: Web/API/MutationObserver/observe
-translation_of: Web/API/MutationObserver/observe
 ---
 
 {{APIRef("DOM WHATWG")}}
@@ -62,6 +61,6 @@ De manera que en teoria si mantiene la pista de los objetos {{domxref("MutationR
 
 {{Specifications}}
 
-## Compatibilidad
+## Compatibilidad con navegadores
 
-{{Compat("api.MutationObserver.observe")}}
+{{Compat}}

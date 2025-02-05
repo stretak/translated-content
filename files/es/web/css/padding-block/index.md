@@ -1,7 +1,6 @@
 ---
 title: padding-block
 slug: Web/CSS/padding-block
-translation_of: Web/CSS/padding-block
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -10,9 +9,9 @@ La propiedad de [CSS](/es/docs/Web/CSS) **`padding-block`** define el relleno l√
 
 ```css
 /* <length> values */
-padding-block: 10px 20px;  /* An absolute length */
-padding-block: 1em 2em;   /* relative to the text size */
-padding-block: 5% 2%;    /* relative to the nearest block container's width */
+padding-block: 10px 20px; /* An absolute length */
+padding-block: 1em 2em; /* relative to the text size */
+padding-block: 5% 2%; /* relative to the nearest block container's width */
 padding-block: 10px; /* sets both start and end values */
 
 /* Keyword values */
@@ -72,9 +71,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.padding-block")}}
+{{Compat}}
 
 ## Mira tambi√©n
 

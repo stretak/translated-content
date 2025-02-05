@@ -1,7 +1,6 @@
 ---
 title: Math.round()
 slug: Web/JavaScript/Reference/Global_Objects/Math/round
-translation_of: Web/JavaScript/Reference/Global_Objects/Math/round
 ---
 
 {{JSRef}}
@@ -13,7 +12,7 @@ translation_of: Web/JavaScript/Reference/Global_Objects/Math/round
 ## 문법
 
 ```js
-    Math.round(x)
+Math.round(x);
 ```
 
 ### 매개 변수
@@ -34,18 +33,18 @@ Because `round()` is a static method of `Math`, you always use it as `Math.round
 ## Examples
 
 ```js
-Math.round( 20.49); //  20
-Math.round( 20.5 ); //  21
-Math.round( 42   ); //  42
-Math.round(-20.5 ); // -20
+Math.round(20.49); //  20
+Math.round(20.5); //  21
+Math.round(42); //  42
+Math.round(-20.5); // -20
 Math.round(-20.51); // -21
 ```
 
-## Specifications
+## 명세서
 
 {{Specifications}}
 
-## Browser compatibility
+## 브라우저 호환성
 
 {{Compat}}
 

@@ -1,10 +1,6 @@
 ---
 title: Element.requestFullscreen()
-slug: Web/API/Element/requestFullScreen
-tags:
-  - Méthode
-  - Plein écran
-translation_of: Web/API/Element/requestFullScreen
+slug: Web/API/Element/requestFullscreen
 ---
 
 {{APIRef("Fullscreen API")}}
@@ -15,7 +11,8 @@ Il n'y a aucune garantie que l'élément passera effectivement en mode plein éc
 
 Cette méthode doit être invoquée par l'interaction d'un utilisateur ou un changement d'orientation du périphérique, sinon elle échouera.
 
-> **Note :** Seuls les éléments présents dans l'espace de noms (namespace) HTML (c'est à dire, les éléments qui font partie du standard HTML), ainsi que les éléments {{HTMLElement("svg")}} et {{HTMLElement("math")}}, qui se trouvent dans le plus haut niveau du document ou dans une {{HTMLElement('iframe')}} avec l'attribut {{htmlattrxref("allowfullscreen", "iframe")}} peuvent être affichés en plein écran. Cela signifie que les éléments se trouvant dans une {{HTMLElement('frame')}} ou un {{HTMLElement('object')}} ne le peuvent pas.
+> [!NOTE]
+> Seuls les éléments présents dans l'espace de noms (namespace) HTML (c'est à dire, les éléments qui font partie du standard HTML), ainsi que les éléments {{HTMLElement("svg")}} et {{HTMLElement("math")}}, qui se trouvent dans le plus haut niveau du document ou dans une {{HTMLElement('iframe')}} avec l'attribut [`allowfullscreen`](/fr/docs/Web/HTML/Element/iframe#allowfullscreen) peuvent être affichés en plein écran. Cela signifie que les éléments se trouvant dans une {{HTMLElement('frame')}} ou un {{HTMLElement('object')}} ne le peuvent pas.
 
 ## Syntaxe
 
@@ -25,7 +22,7 @@ Element.requestFullscreen();
 
 ## Exemple
 
-Avant d'appeler `requestFullScreen()`, mettez en place des gestionnaires (handlers) pour les évenements  [`fullscreenchange`](/fr/docs/Web/API/Element/fullscreenchange_event) et [`fullscreenerror`](/fr/docs/Web/API/Element/fullscreenerror_event), pour savoir lorsque vous avez réussi à passer en mode plein écran (ou lorsque la permission de le faire a été refusée).
+Avant d'appeler `requestFullScreen()`, mettez en place des gestionnaires (handlers) pour les évenements [`fullscreenchange`](/fr/docs/Web/API/Element/fullscreenchange_event) et [`fullscreenerror`](/fr/docs/Web/API/Element/fullscreenerror_event), pour savoir lorsque vous avez réussi à passer en mode plein écran (ou lorsque la permission de le faire a été refusée).
 
 tbd
 
@@ -45,4 +42,4 @@ tbd
 - {{ domxref("Document.fullscreen") }}
 - {{ domxref("Document.fullscreenElement") }}
 - {{ cssxref(":fullscreen") }}
-- {{ HTMLAttrXRef("allowfullscreen", "iframe") }}
+- [`allowfullscreen`](/fr/docs/Web/HTML/Element/iframe#allowfullscreen)

@@ -1,13 +1,6 @@
 ---
 title: Nodo appendChild
 slug: Web/API/Node/appendChild
-tags:
-  - API
-  - DOM
-  - Node
-  - Referencia
-  - metodo
-translation_of: Web/API/Node/appendChild
 ---
 
 {{APIRef("DOM")}}
@@ -39,7 +32,7 @@ El valor devuelto es el hijo adjunto excepto cuando el hijo proporcionado es un 
 El encadenamiento podría no funcionar como se espera debido a que `appendChild()` devuelve un elemento hijo:
 
 ```js
-var aBlock = doc.createElement('block').appendChild(doc.createElement('b'));
+var aBlock = doc.createElement("block").appendChild(doc.createElement("b"));
 ```
 
 Establece `aBlock` como `<b></b>` sólo, que no es probablemente lo que quieras.
@@ -69,7 +62,7 @@ document.body.appendChild(p);
 
 ## Compatibilidad con navegadores
 
-{{Compat("api.Node.appendChild")}}
+{{Compat}}
 
 ## Ver también
 

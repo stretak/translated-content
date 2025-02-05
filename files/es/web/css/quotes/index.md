@@ -1,20 +1,13 @@
 ---
 title: quotes
 slug: Web/CSS/quotes
-tags:
-  - CSS
-  - Layout
-  - Maquetación
-  - Referencia
-  - Web
-translation_of: Web/CSS/quotes
 ---
 
 {{CSSRef}}
 
 ## Sumario
 
-La propiedad [CSS](/es/docs/CSS) `quotes` indica cómo debe renderizar las citas el navegador.
+La propiedad [CSS](/es/docs/Web/CSS) `quotes` indica cómo debe renderizar las citas el navegador.
 
 {{cssinfo}}
 
@@ -25,8 +18,8 @@ La propiedad [CSS](/es/docs/CSS) `quotes` indica cómo debe renderizar las citas
 quotes: none;
 
 /* Valor <string> */
-quotes: "«" "»";           /* Especifica open-quote y close-quote a las marcas de cita francesas */
-quotes: "«" "»" "‹" "›";   /* Especifica dos niveles de marcas de cita */
+quotes: "«" "»"; /* Especifica open-quote y close-quote a las marcas de cita francesas */
+quotes: "«" "»" "‹" "›"; /* Especifica dos niveles de marcas de cita */
 
 /* Valores globales */
 quotes: inherit;
@@ -48,9 +41,15 @@ quotes: unset;
 ## Ejemplos
 
 ```css
-q { quotes: '"' '"' "'" "'" }
-q:before { content: open-quote }
-q:after  { content: close-quote }
+q {
+  quotes: '"' '"' "'" "'";
+}
+q:before {
+  content: open-quote;
+}
+q:after {
+  content: close-quote;
+}
 ```
 
 ## Notas
@@ -63,7 +62,7 @@ Desde Firefox 3.5, el valor inicial de la propiedad de las citas se puede leer u
 
 ## Compatibilidad con navegadores
 
-{{Compat("css.properties.quotes")}}
+{{Compat}}
 
 ## Ver también
 

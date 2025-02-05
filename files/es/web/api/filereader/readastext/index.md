@@ -1,17 +1,11 @@
 ---
 title: FileReader.readAsText()
 slug: Web/API/FileReader/readAsText
-tags:
-  - API
-  - File API
-  - api de lectura de archivos
-  - leer archivos
-translation_of: Web/API/FileReader/readAsText
 ---
 
 {{APIRef("File API")}}
 
-El método `readAsText` se usa para leer el contenido de un tipo {{domxref("Blob")}} o {{domxref("File")}}. Cuando la operación de lectura se completa, el atributo {{domxref("FileReader.readyState","readyState")}} cambia a `DONE`, el evento [`loadend`](/es/docs/Web/Reference/Events/loadend) se dispara y el atributo {{domxref("FileReader.result","result")}} contiene el contenido del archivo como una cadena de texto.
+El método `readAsText` se usa para leer el contenido de un tipo {{domxref("Blob")}} o {{domxref("File")}}. Cuando la operación de lectura se completa, el atributo {{domxref("FileReader.readyState","readyState")}} cambia a `DONE`, el evento [`loadend`](/es/docs/Web/API/XMLHttpRequest/loadend_event) se dispara y el atributo {{domxref("FileReader.result","result")}} contiene el contenido del archivo como una cadena de texto.
 
 ## Sintaxis
 
@@ -30,9 +24,9 @@ instanceOfFileReader.readAsText(blob[, encoding]);
 
 {{Specifications}}
 
-## Compatibilidad en los navegadores
+## Compatibilidad con navegadores
 
-{{Compat("api.FileReader.readAsText")}}
+{{Compat}}
 
 ## Vea también
 

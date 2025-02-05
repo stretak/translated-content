@@ -1,9 +1,6 @@
 ---
 title: window.navigator.registerProtocolHandler
 slug: Web/API/Navigator/registerProtocolHandler
-page-type: web-api-instance-method
-translation_of: Web/API/Navigator/registerProtocolHandler
-browser-compat: api.Navigator.registerProtocolHandler
 ---
 
 {{ ApiRef() }}
@@ -42,5 +39,5 @@ Esto crea un nuevo manejador que permite a los enlaces de tipo "mailto:" dirigir
 
 ## Véase también
 
-- [Manejadores de protocolos basados en Web](/es/docs/Web/API/Navigator/registerProtocolHandler/Web-based_protocol_handlers)
+- [Manejadores de protocolos basados en Web](/es/docs/conflicting/Web/API/Navigator/registerProtocolHandler)
 - [RegisterProtocolHandler Mejora de la web federada](https://blog.mozilla.org/webdev/2010/07/26/registerprotocolhandler-enhancing-the-federated-web/) (Mozilla Webdev)

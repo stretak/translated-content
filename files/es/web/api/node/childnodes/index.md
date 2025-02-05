@@ -1,13 +1,6 @@
 ---
 title: Node.childNodes
 slug: Web/API/Node/childNodes
-tags:
-  - API
-  - DOM
-  - Propiedad
-  - Referencia
-  - Referência DOM
-translation_of: Web/API/Node/childNodes
 ---
 
 {{APIRef("DOM")}}
@@ -45,8 +38,8 @@ if (parg.hasChildNodes()) {
 // box is an object reference to an element
 
 while (box.firstChild) {
-    //The list is LIVE so it will re-index each call
-    box.removeChild(box.firstChild);
+  //The list is LIVE so it will re-index each call
+  box.removeChild(box.firstChild);
 }
 ```
 
@@ -64,7 +57,7 @@ El objeto `document` contiene 2 hijos: la declaración del Doctype y el elemento
 
 ## Compatibilidad con navegadores
 
-{{Compat("api.Node.childNodes")}}
+{{Compat}}
 
 ## Vea también
 

@@ -1,19 +1,11 @@
 ---
 title: HTMLSelectElement.checkValidity()
 slug: Web/API/HTMLSelectElement/checkValidity
-tags:
-  - API
-  - Constraint Validation API
-  - HTML DOM
-  - HTMLSelectElement
-  - Referencia
-  - metodo
-translation_of: Web/API/HTMLSelectElement/checkValidity
 ---
 
 {{ APIRef("HTML DOM") }}
 
-El método **`HTMLSelectElement.checkValidity()`** comprueba si el elemento tiene restricciones y si las cumple. Si el elemento no cumple sus restricciones, el navegador lanza un evento cancelable [`invalid`](/es/docs/Web/Reference/Events/invalid) al momento y luego devuelve `false`.
+El método **`HTMLSelectElement.checkValidity()`** comprueba si el elemento tiene restricciones y si las cumple. Si el elemento no cumple sus restricciones, el navegador lanza un evento cancelable [`invalid`](/es/docs/Web/API/HTMLInputElement/invalid_event) al momento y luego devuelve `false`.
 
 ## Sintaxis
 
@@ -25,9 +17,9 @@ var result = selectElt.checkValidity();
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("api.HTMLSelectElement.checkValidity")}}
+{{Compat}}
 
 ## Ver también
 

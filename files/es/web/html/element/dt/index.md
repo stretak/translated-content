@@ -1,19 +1,6 @@
 ---
 title: dt
 slug: Web/HTML/Element/dt
-tags:
-  - Contenido agrupado HTML
-  - Definición
-  - Elemento
-  - HTML
-  - Lista de definiciones
-  - Referencia
-  - Término
-  - Término de definición
-  - dt
-  - listas
-translation_of: Web/HTML/Element/dt
-original_slug: Web/HTML/Elemento/dt
 ---
 
 {{HTMLSidebar}}
@@ -83,19 +70,19 @@ La fuente para este ejemplo interactivo se encuetra almacenado en un repositorio
 
 ## Atributos
 
-Este elemento solo incluye los [atributos globales](/es/docs/Web/HTML/Atributos_Globales).
+Este elemento solo incluye los [atributos globales](/es/docs/Web/HTML/Global_attributes).
 
 ## Ejemplo
 
-Para ver un ejemplo, vea el [proveído por el elemento `<dl>`](/es/docs/Web/HTML/Elemento/dl#Examples).
+Para ver un ejemplo, vea el [proveído por el elemento `<dl>`](/es/docs/Web/HTML/Element/dl#examples).
 
 ## Especificaciones
 
 {{Specifications}}
 
-## Compatibilidad del navegador
+## Compatibilidad con navegadores
 
-{{Compat("html.elements.dt")}}
+{{Compat}}
 
 ## Vea también
 

@@ -1,12 +1,6 @@
 ---
-title: '::-webkit-scrollbar'
+title: "::-webkit-scrollbar"
 slug: Web/CSS/::-webkit-scrollbar
-tags:
-  - CSS
-  - NeedsCompatTable
-  - Pseudo-elemento
-  - Referencia
-translation_of: Web/CSS/::-webkit-scrollbar
 ---
 
 {{CSSRef}}
@@ -20,7 +14,8 @@ El [pseudo-elemento](/es/docs/Web/CSS/Pseudo-elements) [CSS](/es/docs/Web/CSS) :
 ## Ejemplo
 
 ```css
-.visible-scrollbar, .invisible-scrollbar {
+.visible-scrollbar,
+.invisible-scrollbar {
   display: block;
   width: 10em;
   overflow: auto;
@@ -31,8 +26,12 @@ El [pseudo-elemento](/es/docs/Web/CSS/Pseudo-elements) [CSS](/es/docs/Web/CSS) :
 ```
 
 ```html
-<div class="visible-scrollbar">Thisisaveeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerylongword</div>
-<div class="invisible-scrollbar">Thisisaveeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerylongword</div>
+<div class="visible-scrollbar">
+  Thisisaveeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerylongword
+</div>
+<div class="invisible-scrollbar">
+  Thisisaveeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerylongword
+</div>
 ```
 
 {{EmbedLiveSample('Ejemplo')}}

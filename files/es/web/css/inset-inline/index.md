@@ -1,7 +1,6 @@
 ---
 title: inset-inline
 slug: Web/CSS/inset-inline
-translation_of: Web/CSS/inset-inline
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -73,9 +72,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.inset-inline")}}
+{{Compat}}
 
 ## Mira también
 

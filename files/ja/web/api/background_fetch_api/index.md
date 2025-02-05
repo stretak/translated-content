@@ -1,7 +1,6 @@
 ---
 title: Background Fetch API
 slug: Web/API/Background_Fetch_API
-page-type: web-api-overview
 l10n:
   sourceCommit: 418f9cf461de0c7845665c0c677ad0667740f52a
 ---
@@ -29,7 +28,7 @@ Background Fetch API は、ユーザーがプロセスをオフラインで開�
 - {{domxref("BackgroundFetchRecord")}}
   - : 個々のフェッチ要求と応答を表します。
 - {{domxref("BackgroundFetchEvent")}}
-  - :  `onbackgroundfetchabort` と `onbackgroundfetchclick` に渡されるイベント型。
+  - : `onbackgroundfetchabort` と `onbackgroundfetchclick` に渡されるイベント型。
 - {{domxref("BackgroundFetchUpdateUIEvent")}}
   - : `onbackgroundfetchsuccess` と `onbackgroundfetchfail` に渡されるイベント型。
 
@@ -62,7 +61,7 @@ navigator.serviceWorker.ready.then(async (swReg) => {
         },
       ],
       downloadTotal: 60 * 1024 * 1024,
-    }
+    },
   );
 });
 ```

@@ -1,11 +1,6 @@
 ---
 title: flex-grow
 slug: Web/CSS/flex-grow
-tags:
-  - CSS
-  - Elementos flexibles
-  - Propiedades CSS
-translation_of: Web/CSS/flex-grow
 ---
 
 {{CSSRef}}
@@ -83,12 +78,12 @@ flex-grow: unset;
 
 .box {
   flex-grow: 1;
-  border: 3px solid rgba(0,0,0,.2);
+  border: 3px solid rgba(0, 0, 0, 0.2);
 }
 
 .box1 {
   flex-grow: 2;
-  border: 3px solid rgba(0,0,0,.2);
+  border: 3px solid rgba(0, 0, 0, 0.2);
 }
 ```
 
@@ -100,9 +95,9 @@ flex-grow: unset;
 
 {{Specifications}}
 
-## Compatibilidad de Navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.flex-grow")}}
+{{Compat}}
 
 ## Ver también
 

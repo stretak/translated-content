@@ -1,11 +1,6 @@
 ---
 title: Element.scrollIntoView()
 slug: Web/API/Element/scrollIntoView
-tags:
-  - Experimental
-  - Expérimental(2)
-  - metodo
-translation_of: Web/API/Element/scrollIntoView
 ---
 
 {{ APIRef("DOM")}}
@@ -48,8 +43,8 @@ var element = document.getElementById("box");
 
 element.scrollIntoView();
 element.scrollIntoView(false);
-element.scrollIntoView({block: "end"});
-element.scrollIntoView({block: "end", behavior: "smooth"});
+element.scrollIntoView({ block: "end" });
+element.scrollIntoView({ block: "end", behavior: "smooth" });
 ```
 
 ## Notas

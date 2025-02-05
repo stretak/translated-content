@@ -1,7 +1,6 @@
 ---
 title: resize
 slug: Web/CSS/resize
-translation_of: Web/CSS/resize
 ---
 
 {{CSSRef}}
@@ -50,7 +49,7 @@ resize: unset;
 
 #### CSS
 
-Por defecto, los elementos {{HTMLElement("textarea")}} permiten cambiar el tamaño en {{gecko("2.0")}} (Firefox 4). Se puede anular este comportamiento con el CSS mostrado abajo:
+Por defecto, los elementos {{HTMLElement("textarea")}} permiten cambiar el tamaño en Gecko 2.0 (Firefox 4). Se puede anular este comportamiento con el CSS mostrado abajo:
 
 ```css
 textarea.example {
@@ -97,8 +96,8 @@ p {
 ```html
 <div class="resizable">
   <p class="resizable">
-    This paragraph is resizable, because the CSS resize property is set to 'both' on this
-    element.
+    This paragraph is resizable, because the CSS resize property is set to
+    'both' on this element.
   </p>
 </div>
 ```
@@ -111,9 +110,9 @@ p {
 
 {{Specifications}}
 
-## Compatibilidad de Navegador
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.resize")}}
+{{Compat}}
 
 ## Ver también
 

@@ -1,7 +1,6 @@
 ---
 title: border-block-start-color
 slug: Web/CSS/border-block-start-color
-translation_of: Web/CSS/border-block-start-color
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -62,9 +61,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-block-start-color")}}
+{{Compat}}
 
 ## Mira también
 

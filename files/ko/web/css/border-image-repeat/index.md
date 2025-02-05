@@ -1,12 +1,6 @@
 ---
 title: border-image-repeat
 slug: Web/CSS/border-image-repeat
-tags:
-  - CSS
-  - CSS Borders
-  - CSS Property
-  - Reference
-translation_of: Web/CSS/border-image-repeat
 ---
 
 {{CSSRef}}
@@ -63,8 +57,8 @@ border-image-repeat: unset;
   margin-bottom: 1rem;
   padding: 1rem;
   border: 40px solid;
-  border-image: url("https://mdn.mozillademos.org/files/4127/border.png") 27;
-  border-image-repeat: stretch;  /* 라이브 샘플에서 바꿀 수 있습니다 */
+  border-image: url("border.png") 27;
+  border-image-repeat: stretch; /* 라이브 샘플에서 바꿀 수 있습니다 */
 }
 ```
 
@@ -84,7 +78,8 @@ border-image-repeat: unset;
 ```js hidden
 var repetition = document.getElementById("repetition");
 repetition.addEventListener("change", function (evt) {
-  document.getElementById("bordered").style.borderImageRepeat = evt.target.value;
+  document.getElementById("bordered").style.borderImageRepeat =
+    evt.target.value;
 });
 ```
 

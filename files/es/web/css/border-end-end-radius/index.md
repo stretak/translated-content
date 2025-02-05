@@ -1,7 +1,6 @@
 ---
 title: border-end-end-radius
 slug: Web/CSS/border-end-end-radius
-translation_of: Web/CSS/border-end-end-radius
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -70,9 +69,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-end-end-radius")}}
+{{Compat}}
 
 ## Mira también
 

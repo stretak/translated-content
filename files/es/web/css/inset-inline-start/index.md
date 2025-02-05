@@ -1,7 +1,6 @@
 ---
 title: inset-inline-start
 slug: Web/CSS/inset-inline-start
-translation_of: Web/CSS/inset-inline-start
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -70,9 +69,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.inset-inline-start")}}
+{{Compat}}
 
 ## Mira también
 

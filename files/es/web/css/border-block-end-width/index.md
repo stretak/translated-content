@@ -1,7 +1,6 @@
 ---
 title: border-block-end-width
 slug: Web/CSS/border-block-end-width
-translation_of: Web/CSS/border-block-end-width
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -63,9 +62,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en Navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.border-block-end-width")}}
+{{Compat}}
 
 ## Mira también
 

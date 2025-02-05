@@ -1,10 +1,6 @@
 ---
 title: font-family
 slug: Web/CSS/@font-face/font-family
-tags:
-  - CSS
-  - font-family
-translation_of: Web/CSS/@font-face/font-family
 ---
 
 {{CSSRef}}
@@ -67,7 +63,7 @@ Como ejemplo , consideremos la familia de fuentes garamon, es su forma normal, o
 
 ```css
 p {
-    font-family: "Times New Roman", Georgia, Serif;
+  font-family: "Times New Roman", Georgia, Serif;
 }
 ```
 
@@ -75,6 +71,6 @@ p {
 
 {{Specifications}}
 
-## Compatibilidad con los distintos navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.at-rules.font-face.font-family")}}
+{{Compat}}

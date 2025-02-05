@@ -1,13 +1,6 @@
 ---
 title: Document.embeds
 slug: Web/API/Document/embeds
-tags:
-  - API
-  - Documento
-  - Ejemplo
-  - HTML DOM
-  - Propiedad
-translation_of: Web/API/Document/embeds
 ---
 
 {{ApiRef}}
@@ -17,7 +10,7 @@ translation_of: Web/API/Document/embeds
 ## Sintaxis
 
 ```js
-nodeList = document.embeds
+nodeList = document.embeds;
 ```
 
 ### Valor

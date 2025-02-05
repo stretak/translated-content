@@ -1,7 +1,6 @@
 ---
 title: transform-style
 slug: Web/CSS/transform-style
-translation_of: Web/CSS/transform-style
 ---
 
 La propiedad **`transform-style`** [CSS](/es/docs/Web/CSS) establece si el elemento hijo esta posicionado en el espacio 3D (preserve-3d) o esta integrado(flat) en el plano del elemento.
@@ -40,12 +39,12 @@ transform-style: unset;
 
 {{Specifications}}
 
-## Browser compatibility
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.transform-style")}}
+{{Compat}}
 
 ## See also
 
-- [Using CSS transforms](/es/docs/CSS/Using_CSS_transforms)
+- [Using CSS transforms](/es/docs/Web/CSS/CSS_transforms/Using_CSS_transforms)
 
 {{CSSRef}}

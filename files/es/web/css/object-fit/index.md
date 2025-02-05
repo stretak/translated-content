@@ -1,22 +1,11 @@
 ---
 title: object-fit
 slug: Web/CSS/object-fit
-tags:
-  - CSS
-  - Imágenes CSS
-  - Layout
-  - Propiedad CSS
-  - Referencia
-  - css layout
-  - object-fit
-  - recipe:css-property
-  - size
-translation_of: Web/CSS/object-fit
 ---
 
 {{CSSRef}}
 
-La propiedad [CSS](/es/docs/Web/CSS) **`object-fit`** indica cómo el contenido de un [elemento reemplazado](/es/docs/Web/CSS/Elemento_reemplazo), por ejemplo un {{HTMLElement("img")}} o {{HTMLElement("video")}}, debería redimensionarse para ajustarse a su contenedor.
+La propiedad [CSS](/es/docs/Web/CSS) **`object-fit`** indica cómo el contenido de un [elemento reemplazado](/es/docs/Web/CSS/Replaced_element), por ejemplo un {{HTMLElement("img")}} o {{HTMLElement("video")}}, debería redimensionarse para ajustarse a su contenedor.
 
 Se puede alterar la alineación del contenido del elemento reemplazado utilizando la propiedad {{cssxref("object-position")}}.
 
@@ -50,29 +39,29 @@ La propiedad `object-fit` se especifica con una de las palabras claves elegidas 
 ```html
 <section>
   <h2>object-fit: fill</h2>
-  <img class="fill" src="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" alt="MDN Logo">
+  <img class="fill" src="mdn_logo_only_color.png" alt="MDN Logo" />
 
-  <img class="fill narrow" src="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" alt="MDN Logo">
+  <img class="fill narrow" src="mdn_logo_only_color.png" alt="MDN Logo" />
 
   <h2>object-fit: contain</h2>
-  <img class="contain" src="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" alt="MDN Logo">
+  <img class="contain" src="mdn_logo_only_color.png" alt="MDN Logo" />
 
-  <img class="contain narrow" src="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" alt="MDN Logo">
+  <img class="contain narrow" src="mdn_logo_only_color.png" alt="MDN Logo" />
 
   <h2>object-fit: cover</h2>
-  <img class="cover" src="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" alt="MDN Logo">
+  <img class="cover" src="mdn_logo_only_color.png" alt="MDN Logo" />
 
-  <img class="cover narrow" src="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" alt="MDN Logo">
+  <img class="cover narrow" src="mdn_logo_only_color.png" alt="MDN Logo" />
 
   <h2>object-fit: none</h2>
-  <img class="none" src="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" alt="MDN Logo">
+  <img class="none" src="mdn_logo_only_color.png" alt="MDN Logo" />
 
-  <img class="none narrow" src="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" alt="MDN Logo">
+  <img class="none narrow" src="mdn_logo_only_color.png" alt="MDN Logo" />
 
   <h2>object-fit: scale-down</h2>
-  <img class="scale-down" src="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" alt="MDN Logo">
+  <img class="scale-down" src="mdn_logo_only_color.png" alt="MDN Logo" />
 
-  <img class="scale-down narrow" src="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" alt="MDN Logo">
+  <img class="scale-down narrow" src="mdn_logo_only_color.png" alt="MDN Logo" />
 </section>
 ```
 
@@ -80,7 +69,9 @@ La propiedad `object-fit` se especifica con una de las palabras claves elegidas 
 
 ```css
 h2 {
-  font-family: Courier New, monospace;
+  font-family:
+    Courier New,
+    monospace;
   font-size: 1em;
   margin: 1em 0 0.3em;
 }
@@ -134,9 +125,9 @@ img {
 
 {{Specifications}}
 
-## Compatibilidad
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.object-fit")}}
+{{Compat}}
 
 ## Ver también
 

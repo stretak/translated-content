@@ -1,7 +1,6 @@
 ---
 title: padding-block-start
 slug: Web/CSS/padding-block-start
-translation_of: Web/CSS/padding-block-start
 ---
 
 {{CSSRef}}{{SeeCompatTable}}
@@ -16,11 +15,11 @@ Esto se relaciona con {{cssxref("padding-block-end")}}, {{cssxref("padding-inlin
 
 ```css
 /* <length> values */
-padding-block-start: 10px;      /* An absolute length */
-padding-block-start: 1em;       /* A length relative to the text size */
+padding-block-start: 10px; /* An absolute length */
+padding-block-start: 1em; /* A length relative to the text size */
 
 /* <percentage> value */
-padding-block-start: 5%;        /* A padding relative to the block container's width */
+padding-block-start: 5%; /* A padding relative to the block container's width */
 
 /* Global values */
 padding-block-start: inherit;
@@ -60,7 +59,7 @@ div {
 .exampleText {
   writing-mode: vertical-lr;
   padding-block-start: 20px;
-  background-color: #C8C800;
+  background-color: #c8c800;
 }
 ```
 
@@ -70,9 +69,9 @@ div {
 
 {{Specifications}}
 
-## Compatibilidad en navegadores
+## Compatibilidad con navegadores
 
-{{Compat("css.properties.padding-block-start")}}
+{{Compat}}
 
 ## Mira también
 

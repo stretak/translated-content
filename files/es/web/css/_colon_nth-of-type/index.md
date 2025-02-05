@@ -1,13 +1,6 @@
 ---
-title: ':nth-of-type'
+title: ":nth-of-type"
 slug: Web/CSS/:nth-of-type
-tags:
-  - CSS
-  - Diseño
-  - Pseudo-clase
-  - Referencia
-  - Web
-translation_of: Web/CSS/:nth-of-type
 ---
 
 {{CSSRef}}
@@ -53,7 +46,7 @@ Ver {{Cssxref(":nth-child")}} para una explicación más detallada de su sintaxi
 
 ```css
 /* Párrafos impares */
-p:nth-of-type(2n+1) {
+p:nth-of-type(2n + 1) {
   color: red;
 }
 
@@ -78,7 +71,7 @@ p:nth-of-type(1) {
 
 ## Compatibilidad con navegadores
 
-{{Compat("css.selectors.nth-of-type")}}
+{{Compat}}
 
 ## Ver también
 

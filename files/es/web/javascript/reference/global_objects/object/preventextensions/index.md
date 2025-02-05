@@ -1,8 +1,6 @@
 ---
 title: Object.preventExtensions()
 slug: Web/JavaScript/Reference/Global_Objects/Object/preventExtensions
-translation_of: Web/JavaScript/Reference/Global_Objects/Object/preventExtensions
-original_slug: Web/JavaScript/Referencia/Objetos_globales/Object/preventExtensions
 ---
 
 {{JSRef}}
@@ -24,7 +22,7 @@ Object.preventExtensions(obj)
 
 Un objeto es extendible si propiedades nuevas pueden ser agregadas a este. Object.preventExtensions() marca un objecto como no extendible, así nunca más tendrá propiedades más allá de las tenía en el momento en que fue marcado como no extendible. Note que las propiedades de un objeto no-extendible, en general, aún pueden ser eliminadas. Los intentos de agregar propiedades nuevas a un objeto no-extendible fallarán, ya sea de manera silenciosa o arrojando una excepción {{jsxref("TypeError")}} (comunmente, pero no de manera exclusiva, en {{jsxref("Functions_and_function_scope/Strict_mode", "strict mode", "", 1)}}).
 
-`Object.preventExtensions()` solo previene la adición de propiedades propias. Las propiedades aún pueden ser agregadas a object.prototype. Sin embargo, llamar `Object.preventExtensions()` sobre un objeto tambien prevendrá extensiones sobre la propiedad {{jsxref("Object.proto", "__proto__")}} {{deprecated_inline}}.
+`Object.preventExtensions()` solo previene la adición de propiedades propias. Las propiedades aún pueden ser agregadas a object.prototype. Sin embargo, llamar `Object.preventExtensions()` sobre un objeto tambien prevendrá extensiones sobre la propiedad [`Object.prototype.__proto__`](/es/docs/Web/JavaScript/Reference/Global_Objects/Object/proto) {{deprecated_inline}}.
 
 Si hay una manera de cambiar un objeto extendible a uno no-extendible, hay una manera de hacer lo opuesto en ECMAScript 5.
 
@@ -48,13 +46,13 @@ Object.isExtensible(empty); // === false
 // una propiedad nueva a un objeto no-extendible.
 var nonExtensible = { removable: true };
 Object.preventExtensions(nonExtensible);
-Object.defineProperty(nonExtensible, 'new', { value: 8675309 }); // arroja TypeError
+Object.defineProperty(nonExtensible, "new", { value: 8675309 }); // arroja TypeError
 
 // En modo estricto, tratar de agregar propiedades nuevas
 // a un objeto no-extensible arroja una excepción TypeError.
 function fail() {
-  'use strict';
-  nonExtensible.newProperty = 'FAIL'; // arroja TypeError
+  "use strict";
+  nonExtensible.newProperty = "FAIL"; // arroja TypeError
 }
 fail();
 
@@ -62,7 +60,7 @@ fail();
 // (el cual esta obsoleto. Usar Object.getPrototypeOf en su lugar)):
 // La propiedad prototype de un objeto no-extendible es inmutable.
 var fixed = Object.preventExtensions({});
-fixed.__proto__ = { oh: 'hai' }; // arroja TypeError
+fixed.__proto__ = { oh: "hai" }; // arroja TypeError
 ```
 
 ## Notas
@@ -81,9 +79,9 @@ Object.preventExtensions(1);
 
 {{Specifications}}
 
-## Compatibilidad de navegadores
+## Compatibilidad con navegadores
 
-{{Compat("javascript.builtins.Object.preventExtensions")}}
+{{Compat}}
 
 ## Mira también
 

@@ -1,11 +1,6 @@
 ---
 title: isolation
 slug: Web/CSS/isolation
-tags:
-  - CSS
-  - CSS Property
-  - Reference
-translation_of: Web/CSS/isolation
 ---
 
 {{CSSRef}}
@@ -57,7 +52,7 @@ isolation: unset;
 
 ```css
 .a {
-  background-color: rgb(0,255,0);
+  background-color: rgb(0, 255, 0);
 }
 #b {
   width: 200px;

@@ -1,13 +1,6 @@
 ---
 title: HTMLDivElement
 slug: Web/API/HTMLDivElement
-tags:
-  - API
-  - HTML DOM
-  - Interfaz
-  - NeedsNewLayout
-  - Referencia
-translation_of: Web/API/HTMLDivElement
 ---
 
 {{ APIRef("HTML DOM") }}
@@ -33,7 +26,7 @@ _No hay métodos específicos; hereda los métodos de su padre, {{domxref("HTMLE
 
 ## Compatibilidad con navegadores
 
-{{Compat("api.HTMLDivElement")}}
+{{Compat}}
 
 ## Ver también
 

@@ -1,19 +1,11 @@
 ---
 title: Blob.type
 slug: Web/API/Blob/type
-tags:
-  - API
-  - Archivo
-  - Archivos
-  - DOM
-  - Propiedad
-  - Referencia
-translation_of: Web/API/Blob/type
 ---
 
 {{APIRef("File API")}}
 
-La propiedad **`type`** de un objeto [`Blob`](/en-US/docs/Web/API/Blob) proporciona el tipo MIME del archivo. Retorna una cadena vacía si el tipo no puede ser determinado.
+La propiedad **`type`** de un objeto [`Blob`](/es/docs/Web/API/Blob) proporciona el tipo MIME del archivo. Retorna una cadena vacía si el tipo no puede ser determinado.
 
 ## Sintaxis
 
@@ -51,9 +43,9 @@ for (i = 0; i < files.length; i++) {
 
 {{Specifications}}
 
-## Compatibilidad con browsers
+## Compatibilidad con navegadores
 
-{{Compat("api.Blob.type")}}
+{{Compat}}
 
 ## Ver también
 

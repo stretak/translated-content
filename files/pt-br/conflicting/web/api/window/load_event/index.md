@@ -1,9 +1,8 @@
 ---
 title: GlobalEventHandlers.onload
 slug: conflicting/Web/API/Window/load_event
-translation_of: Web/API/GlobalEventHandlers/onload
-original_slug: Web/API/GlobalEventHandlers/onload
 ---
+
 {{ApiRef("HTML DOM")}}
 
 Um manipulador de eventos para o evento de carregamento do objeto {{domxref("window")}}.
@@ -51,9 +50,7 @@ Existe também os [Gecko-Specific DOM Events](/pt-BR/docs/Web/Events), como o `D
 
 ## Especificações
 
-| Especificação                                                                                    | Status                           | Comentário        |
-| ------------------------------------------------------------------------------------------------ | -------------------------------- | ----------------- |
-| {{SpecName("HTML WHATWG", "webappapis.html#handler-onload", "onload")}} | {{Spec2("HTML WHATWG")}} | Definição inicial |
+{{Specifications}}
 
 ## Veja também
 

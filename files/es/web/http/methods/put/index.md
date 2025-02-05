@@ -1,11 +1,6 @@
 ---
 title: PUT
 slug: Web/HTTP/Methods/PUT
-tags:
-  - HTTP
-  - Método HTTP
-  - Petición
-translation_of: Web/HTTP/Methods/PUT
 ---
 
 {{HTTPSidebar}}
@@ -38,7 +33,7 @@ La diferencia entre el método `PUT` y el método {{HTTPMethod("POST")}} es que 
     </tr>
     <tr>
       <th scope="row">
-        Permitido en <a href="/en-US/docs/Web/Guide/HTML/Forms">HTML forms</a>
+        Permitido en <a href="/es/docs/Web/Guide/HTML/Forms">HTML forms</a>
       </th>
       <td>No</td>
     </tr>
@@ -82,13 +77,11 @@ Content-Location: /existente.html
 
 ## Especificaciones
 
-| Specification                            | Title                                                         |
-| ---------------------------------------- | ------------------------------------------------------------- |
-| {{RFC("7231", "PUT", "4.3.4")}} | Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content |
+{{Specifications}}
 
-## Navegadores compatibles
+## Compatibilidad con navegadores
 
-{{Compat("http.methods.PUT")}}
+{{Compat}}
 
 ## Ver también
 
